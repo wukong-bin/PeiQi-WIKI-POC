@@ -75,13 +75,7 @@ list.txt
 site/dev.js
 
 # uesless file
-vuepress-theme-antdocs/LICENSE
-vuepress-theme-antdocs/package.json
-vuepress-theme-antdocs/README.md
 node_modules
 /node_modules/*
-bfg-1.13.1.jar
-_book
-_book/*
 
 package-lock.json
