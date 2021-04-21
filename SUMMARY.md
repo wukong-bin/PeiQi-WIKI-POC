@@ -4,6 +4,7 @@
 
 * [更新时间线记录](TIME.md)
 
+
 * [Web服务器漏洞](PeiQi_Wiki/Web服务器漏洞/README.md)
 	* [Jboss](PeiQi_Wiki/Web服务器漏洞/Jboss/README.md)
 	   * [扫描工具](PeiQi_Wiki/Web服务器漏洞/Jboss/Scan/README.md)
@@ -284,6 +285,7 @@
 	   * [Windows Win32k 本地提权漏洞 CVE-2021-1732](PeiQi_Wiki/操作系统漏洞/Windows/Windows Win32k 本地提权漏洞 CVE-2021-1732.md)
 	* [Linux](PeiQi_Wiki/操作系统漏洞/Linux/README.md)
 	   * [Linux sudo权限提升漏洞 CVE-2021-3156](PeiQi_Wiki/操作系统漏洞/Linux/Linux sudo权限提升漏洞 CVE-2021-3156.md)
+	   * [Linux kernel权限提升漏洞 CVE-2021-3493](PeiQi_Wiki/操作系统漏洞/Linux/Linux kernel权限提升漏洞 CVE-2021-3493.md)
 	   
 * [网络设备漏洞](PeiQi_Wiki/网络设备漏洞/README.md)
     * [DVR](PeiQi_Wiki/网络设备漏洞/DVR/README.md)
@@ -337,4 +339,6 @@
 	   * [锐捷SSL VPN 越权访问漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷SSL VPN 越权访问漏洞.md)
 	   * [锐捷Smartweb管理系统 默认开启Guest账户漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷Smartweb管理系统 默认开启Guest账户漏洞.md)
 	   * [锐捷Smartweb管理系统 密码信息泄露漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷Smartweb管理系统 密码信息泄露漏洞.md)
+	* [电信](PeiQi_Wiki/网络设备漏洞/电信/README.md)
+	   * [电信网关配置管理系统 SQL注入漏洞](PeiQi_Wiki/网络设备漏洞/电信/电信网关配置管理系统 SQL注入漏洞.md)
 
