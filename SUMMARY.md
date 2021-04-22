@@ -64,6 +64,8 @@
 	      * [Apache Druid 远程代码执行漏洞 CVE-2021-25646](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Druid/Apache Druid 远程代码执行漏洞 CVE-2021-25646.md)
 	   * [Apache OFBiz](PeiQi_Wiki/Web服务器漏洞/Apache/Apache OFBiz/README.md)
 	      * [Apache OFBiz RMI反序列化漏洞 CVE-2021-26295](PeiQi_Wiki/Web服务器漏洞/Apache/Apache OFBiz/Apache OFBiz RMI反序列化漏洞 CVE-2021-26295.md)
+	   * [Apache Zeppelin](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Zeppelin/README.md)
+	      * [Apache Zeppelin 未授权任意命令执行漏洞](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Zeppelin/Apache Zeppelin 未授权任意命令执行漏洞.md)
 
 * [服务器应用漏洞](PeiQi_Wiki/服务器应用漏洞/README.md)
     * [Redis](PeiQi_Wiki/服务器应用漏洞/Redis/README.md)
@@ -100,6 +102,8 @@
 	   * [SonarQube api 信息泄露漏洞 CVE-2020-27986](PeiQi_Wiki/Web应用漏洞/SonarQube/SonarQube api 信息泄露漏洞 CVE-2020-27986.md)
 	* [IBOS](PeiQi_Wiki/Web应用漏洞/IBOS/README.md)
 	   * [IBOS 数据库模块 任意文件上传漏洞](PeiQi_Wiki/Web应用漏洞/IBOS/IBOS 数据库模块 任意文件上传漏洞.md)
+	* [Hue](PeiQi_Wiki/Web应用漏洞/Hue/README.md)
+	   * [Hue 后台编辑器命令执行漏洞](PeiQi_Wiki/Web应用漏洞/Hue/Hue 后台编辑器命令执行漏洞.md)
 	* [Coremail](PeiQi_Wiki/Web应用漏洞/Coremail/README.md)
 	   * [Coremail 配置信息泄露漏洞](PeiQi_Wiki/Web应用漏洞/Coremail/Coremail 配置信息泄露漏洞.md)
 	* [Citrix XenMobile](PeiQi_Wiki/Web应用漏洞/Citrix XenMobile/README.md)
