@@ -236,6 +236,7 @@
 	   * [用友 NC XbrlPersistenceServlet反序列化](PeiQi_Wiki/OA产品漏洞/用友OA/用友 NC XbrlPersistenceServlet反序列化.md)
 	   * [用友ERP-NC 目录遍历漏洞](PeiQi_Wiki/OA产品漏洞/用友OA/用友ERP-NC 目录遍历漏洞.md)
 	   * [用友 U8 OA test.jsp SQL注入漏洞](PeiQi_Wiki/OA产品漏洞/用友OA/用友 U8 OA test.jsp SQL注入漏洞.md)
+	   * [用友 NCCloud FS文件管理SQL注入](PeiQi_Wiki/OA产品漏洞/用友OA/用友 NCCloud FS文件管理SQL注入.md)
 	* [致远OA](PeiQi_Wiki/OA产品漏洞/致远OA/README.md)
 	   * [致远OA A6 createMysql.jsp 数据库敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 createMysql.jsp 数据库敏感信息泄露.md)
 	   * [致远OA A6 DownExcelBeanServlet 用户敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 DownExcelBeanServlet 用户敏感信息泄露.md)
