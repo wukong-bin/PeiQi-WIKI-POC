@@ -252,7 +252,9 @@
 	* [帆软OA](PeiQi_Wiki/OA产品漏洞/帆软OA/README.md)
 	   * [帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757](PeiQi_Wiki/OA产品漏洞/帆软OA/帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757.md)
 	   * [帆软 V9 任意文件覆盖文件上传](PeiQi_Wiki/OA产品漏洞/帆软OA/帆软 V9 任意文件覆盖文件上传.md)
-
+	* [新点OA](PeiQi_Wiki/OA产品漏洞/新点OA/README.md)
+	   * [新点OA 敏感信息泄露漏洞](PeiQi_Wiki/OA产品漏洞/新点OA/新点OA 敏感信息泄露漏洞.md)
+	   
 * [CMS漏洞](PeiQi_Wiki/CMS漏洞/README.md)
 	* [Weiphp](PeiQi_Wiki/CMS漏洞/Weiphp/README.md)
 	   * [Weiphp5.0 前台文件任意读取 CNVD-2020-68596](PeiQi_Wiki/CMS漏洞/Weiphp/Weiphp5.0 前台文件任意读取 CNVD-2020-68596.md)
