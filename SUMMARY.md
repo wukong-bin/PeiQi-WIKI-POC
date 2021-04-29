@@ -243,7 +243,7 @@
 	   * [致远OA A6 initDataAssess.jsp 用户敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 initDataAssess.jsp 用户敏感信息泄露.md)
 	   * [致远OA A6 test.jsp SQL注入漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 test.jsp SQL注入漏洞.md)
 	   * [致远OA A6 setextno.jsp SQL注入漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 setextno.jsp SQL注入漏洞.md)
-	   * [致远OA A8 状态监控页面信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 状态监控页面信息泄露.md)
+	   * [致远OA A8 状态监控页面信息泄露](PeiQi_Wiki/OA产品漏洞/致	远OA/致远OA A8 状态监控页面信息泄露.md)
 	   * [致远 OA A8 htmlofficeservlet RCE漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md)
 	   * [致远OA getSessionList.jsp Session泄漏漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA getSessionList.jsp Session泄漏漏洞.md)
 	   * [致远OA ajax.do 登录绕过 任意文件上传 CNVD-2021-01627](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA ajax.do 登录绕过 任意文件上传 CNVD-2021-01627.md)
@@ -353,4 +353,9 @@
 	   * [锐捷Smartweb管理系统 密码信息泄露漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷Smartweb管理系统 密码信息泄露漏洞.md)
 	* [电信](PeiQi_Wiki/网络设备漏洞/电信/README.md)
 	   * [电信网关配置管理系统 SQL注入漏洞](PeiQi_Wiki/网络设备漏洞/电信/电信网关配置管理系统 SQL注入漏洞.md)
+	* [宏电](PeiQi_Wiki/网络设备漏洞/宏电/README.md)
+	   * [宏电 H8922 Telnet后门漏洞 CVE-2021-28149](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 Telnet后门漏洞 CVE-2021-28149.md)
+	   * [宏电 H8922 后台命令执行漏洞 CVE-2021-28150](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 后台命令执行漏洞 CVE-2021-28150.md)
+	   * [宏电 H8922 后台管理员信息泄露漏洞 CVE-2021-28151](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 后台管理员信息泄露漏洞 CVE-2021-28151.md)
+	   * [宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152.md)
 
