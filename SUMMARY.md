@@ -351,6 +351,7 @@
 	   * [锐捷SSL VPN 越权访问漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷SSL VPN 越权访问漏洞.md)
 	   * [锐捷Smartweb管理系统 默认开启Guest账户漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷Smartweb管理系统 默认开启Guest账户漏洞.md)
 	   * [锐捷Smartweb管理系统 密码信息泄露漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷Smartweb管理系统 密码信息泄露漏洞.md)
+	   * [锐捷云课堂主机 目录遍历漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷云课堂主机 目录遍历漏洞.md)
 	* [电信](PeiQi_Wiki/网络设备漏洞/电信/README.md)
 	   * [电信网关配置管理系统 SQL注入漏洞](PeiQi_Wiki/网络设备漏洞/电信/电信网关配置管理系统 SQL注入漏洞.md)
 	* [宏电](PeiQi_Wiki/网络设备漏洞/宏电/README.md)
