@@ -1,5 +1,61 @@
 # 文库更新时间线记录🦄
 
+###### 2021-5-5 rConfig ajaxEditTemplate.php 后台远程命令执行
+
+###### 2021-5-4 电信中兴ZXHN F450A网关 默认管理员账号密码漏洞
+
+###### 2021-5-4 rConfig ajaxArchiveFiles.php 后台远程命令执行漏洞
+
+###### 2021-5-4 rConfig useradmin.inc.php 信息泄露漏洞
+
+###### 2021-5-4 rConfig userprocess.php 任意用户创建漏洞
+
+###### 2021-5-3 KEADCOM 数字系统接入网关 任意文件读取漏洞
+
+###### 2021-5-3 Intelbras Wireless 未授权与密码泄露 CVE-2021-3017
+
+###### 2021-5-3 Alibaba Canal config 云密钥信息泄露漏洞
+
+###### 2021-5-3 原创先锋 后台管理平台 未授权访问漏洞
+
+###### 2021-5-3 H3C SecParh堡垒机 get_detail_view.php 任意用户登录漏洞
+
+###### 2021-5-3 ezEIP 4.1.0 信息泄露漏洞
+
+###### 2021-5-2 安美数字 酒店宽带运营系统 server_ping.php 远程命令执行漏洞
+
+###### 2021-5-2 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
+
+###### 2021-5-2 锐捷NBR 1300G路由器 越权CLI命令执行漏洞
+
+###### 2021-5-2 锐捷EG易网关 phpinfo.view.php 信息泄露漏洞
+
+###### 2021-5-2 锐捷EG易网关 download.php 任意文件读取漏洞
+
+###### 2021-5-1 锐捷EG易网关 branch_passw.php 远程命令执行漏洞
+
+###### 2021-5-1 锐捷EG易网关 管理员账号密码泄露漏洞
+
+###### 2021-5-1 锐捷EG易网关 cli.php 远程命令执行漏洞
+
+###### 2021-5-1 TerraMaster TOS RCE CVE-2020-28188
+
+###### 2021-5-1 TerraMaster TOS 后台任意文件读取漏洞 CVE-2020-28187
+
+###### 2021-5-1 TerraMaster TOS exportUser.php 远程命令执行 CVE-2020-15568
+
+###### 2021-5-1 TerraMaster TOS 任意账号密码修改漏洞 CVE-2020-28186
+
+###### 2021-5-1 TerraMaster TOS 用户枚举漏洞 CVE-2020-28185
+
+###### 2021-5-1 蓝凌OA custom.jsp 任意文件读取漏洞
+
+###### 2021-5-1 Panabit iXCache cfg_cmd 后台命令执行漏洞
+
+###### 2021-5-1 Panabit Panalog cmdhandle.php 后台命令执行漏洞
+
+###### 2021-5-1 Panabit 智能应用网关 ajax_top 后台命令执行漏洞
+
 ###### 2021-4-29 E-message 越权访问漏洞
 
 ###### 2021-4-29 锐捷云课堂主机 目录遍历漏洞
