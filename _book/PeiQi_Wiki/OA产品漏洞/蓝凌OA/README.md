@@ -6,5 +6,7 @@
 
 #### 蓝凌OA custom.jsp 任意文件读取漏洞
 
+#### 蓝凌OA SSRF+JNDI远程命令执行
+
 
 
