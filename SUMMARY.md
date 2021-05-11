@@ -4,6 +4,8 @@
 
 * [更新时间线记录](TIME.md)
 
+* [便携小空调](KONGTIAO.md)
+
 
 * [Web服务器漏洞](PeiQi_Wiki/Web服务器漏洞/README.md)
 	* [Jboss](PeiQi_Wiki/Web服务器漏洞/Jboss/README.md)
@@ -224,7 +226,7 @@
 	* [jQuery](PeiQi_Wiki/开发框架漏洞/jQuery/README.md)
 	   * [jQuery XSS漏洞 CVE-2020-11022/11023](PeiQi_Wiki/开发框架漏洞/jQuery/jQuery XSS漏洞 CVE-2020-11022 11023.md)
 	* [PHPUnit](PeiQi_Wiki/开发框架漏洞/PHPUnit/README.md)
-	   * [PHPUnit eval-stdin.php 远程命令执行漏洞](PeiQi_Wiki/开发框架漏洞/PHPUnit/PHPUnit eval-stdin.php 远程命令执行漏洞.md)
+	   * [PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841](PeiQi_Wiki/开发框架漏洞/PHPUnit/PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841.md)
 	  
 * [开发语言漏洞](PeiQi_Wiki/开发语言漏洞/README.md)
 	* [PHP](PeiQi_Wiki/开发语言漏洞/PHP/README.md)
@@ -334,14 +336,12 @@
 	   * [Linux kernel权限提升漏洞 CVE-2021-3493](PeiQi_Wiki/操作系统漏洞/Linux/Linux kernel权限提升漏洞 CVE-2021-3493.md)
 	   
 * [网络设备漏洞](PeiQi_Wiki/网络设备漏洞/README.md)
-	* [rConfig](PeiQi_Wiki/网络设备漏洞/rConfig/README.md)
-	   * [rConfig userprocess.php 任意用户创建漏洞](PeiQi_Wiki/网络设备漏洞/rConfig/rConfig userprocess.php 任意用户创建漏洞.md)
-	   * [rConfig useradmin.inc.php 信息泄露漏洞](PeiQi_Wiki/网络设备漏洞/rConfig/rConfig useradmin.inc.php 信息泄露漏洞.md)
-	   * [rConfig ajaxArchiveFiles.php 后台远程命令执行漏洞](PeiQi_Wiki/网络设备漏洞/rConfig/rConfig ajaxArchiveFiles.php 后台远程命令执行漏洞.md)
     * [DVR](PeiQi_Wiki/网络设备漏洞/DVR/README.md)
 	   * [DVR 登录绕过漏洞 CVE-2018-9995](PeiQi_Wiki/网络设备漏洞/DVR/DVR 登录绕过漏洞 CVE-2018-9995.md)
 	* [TP-Link](PeiQi_Wiki/网络设备漏洞/TP-Link/README.md)
 	   * [TP-Link SR20 远程命令执行](PeiQi_Wiki/网络设备漏洞/TP-Link/TP-Link SR20 远程命令执行.md)
+	* [Kyan](PeiQi_Wiki/网络设备漏洞/Kyan/README.md)
+	   * [Kyan 网络监控设备 账号密码泄露漏洞](PeiQi_Wiki/网络设备漏洞/Kyan/Kyan 网络监控设备 账号密码泄露漏洞.md)
 	* [Cisco](PeiQi_Wiki/网络设备漏洞/Cisco/README.md)
 	   * [CISCO ASA设备任意文件读取漏洞 CVE-2020-3452](PeiQi_Wiki/网络设备漏洞/Cisco/CISCO ASA设备任意文件读取漏洞 CVE-2020-3452.md)
 	* [Zyxel](PeiQi_Wiki/网络设备漏洞/Zyxel/README.md)
@@ -380,6 +380,8 @@
 	   * [Intelbras Wireless 未授权与密码泄露 CVE-2021-3017](PeiQi_Wiki/网络设备漏洞/Intelbras/Intelbras Wireless 未授权与密码泄露 CVE-2021-3017.md)
 	* [蜂网互联](PeiQi_Wiki/网络设备漏洞/蜂网互联/README.md)
 	   * [蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313](PeiQi_Wiki/网络设备漏洞/蜂网互联/蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313.md)
+	* [菲力尔](PeiQi_Wiki/网络设备漏洞/菲力尔/README.md)
+	   * [FLIR-AX8 download.php 任意文件下载](PeiQi_Wiki/网络设备漏洞/菲力尔/FLIR-AX8 download.php 任意文件下载.md)
 	* [朗视](PeiQi_Wiki/网络设备漏洞/朗视/README.md)
 	   * [朗视 TG400 GSM 网关目录遍历  CVE-2021-27328](PeiQi_Wiki/网络设备漏洞/朗视/朗视 TG400 GSM 网关目录遍历  CVE-2021-27328.md)
 	* [三星](PeiQi_Wiki/网络设备漏洞/三星/README.md)
@@ -413,4 +415,6 @@
 	   * [宏电 H8922 后台命令执行漏洞 CVE-2021-28150](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 后台命令执行漏洞 CVE-2021-28150.md)
 	   * [宏电 H8922 后台管理员信息泄露漏洞 CVE-2021-28151](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 后台管理员信息泄露漏洞 CVE-2021-28151.md)
 	   * [宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152](PeiQi_Wiki/网络设备漏洞/宏电/宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152.md)
+	* [碧海威](PeiQi_Wiki/网络设备漏洞/碧海威/README.md)
+	   * [碧海威 L7多款产品 后台命令执行漏洞](PeiQi_Wiki/网络设备漏洞/碧海威/碧海威 L7多款产品 后台命令执行漏洞.md)
 
