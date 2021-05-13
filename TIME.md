@@ -1,5 +1,13 @@
 # 文库更新时间线记录🦄
 
+###### 2021-5-12 泛微E-Cology WorkflowServiceXml RCE
+
+###### 2021-5-12 H3C IMC dynamiccontent.properties.xhtm 远程命令执行
+
+###### 2021-5-12 蓝海卓越计费管理系统 download.php 任意文件读取漏洞
+
+###### 2021-5-12 TVT数码科技 NVMS-1000 路径遍历漏洞
+
 ###### 2021-5-11 碧海威 L7多款产品 后台命令执行漏洞
 
 ###### 2021-5-9 FLIR-AX8 download.php 任意文件下载
