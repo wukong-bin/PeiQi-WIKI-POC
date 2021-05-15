@@ -1,5 +1,15 @@
 # 文库更新时间线记录🦄
 
+###### 2021-5-15 ZeroShell 3.9.0 远程命令执行漏洞 CVE-2019-12725
+
+###### 2021-5-14 狮子鱼CMS wxapp.php 任意文件上传漏洞
+
+###### 2021-5-14 狮子鱼CMS image_upload.php 任意文件上传
+
+###### 2021-5-14 狮子鱼CMS ApigoodController.class.php SQL注入漏洞
+
+###### 2021-5-14 狮子鱼CMS ApiController.class.php SQL注入漏洞
+
 ###### 2021-5-12 泛微E-Cology WorkflowServiceXml RCE
 
 ###### 2021-5-12 H3C IMC dynamiccontent.properties.xhtm 远程命令执行
