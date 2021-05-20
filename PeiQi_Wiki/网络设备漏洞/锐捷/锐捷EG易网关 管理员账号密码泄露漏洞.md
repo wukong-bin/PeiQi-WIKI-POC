@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/ruijie-25.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-25.png)
 
 漏洞文件 login.php
 
@@ -127,7 +127,7 @@ Accept-Encoding: gzip
 username=admin&password=admin?show+webmaster+user
 ```
 
-![](image/ruijie-26.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-26.png)
 
 成功获取账号密码
 

@@ -20,7 +20,7 @@ Ruijie SSL VPN 存在越权访问漏洞，攻击者在已知用户名的情况�
 
 访问目标 http://xxx.xxx.xxx.xxx/cgi-bin/installjava.cgi
 
-![](image/ruijie-9.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-9.png)
 
 POC请求包如下
 
@@ -54,21 +54,21 @@ UserName 参数为已知用户名
 >
 > 在未知登录用户名的情况下 漏洞无法利用(根据请求包使用Burp进行用户名爆破)
 
-![](image/ruijie-10.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-10.png)
 
 用户名正确时会返回敏感信息
 
-![](image/ruijie-11.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-11.png)
 
 通过此方法知道用户名后可以通过漏洞修改账号参数
 
 访问 http://xxx.xxx.xxx.xxx/cgi-bin/main.cgi?oper=showsvr&encode=GBK&username=liuw&sid=1&oper=showres
 
-![](image/ruijie-12.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-12.png)
 
 点击个人设置跳转页面即可修改账号信息
 
-![](image/ruijie-13.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-13.png)
 
 ## 参考文章
 

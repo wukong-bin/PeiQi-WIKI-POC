@@ -18,7 +18,7 @@ https://cdndown.tongda2000.com/oa/2019/TDOA11.9.exe
 
 双击安装
 
-![](image\tongdaoa-1.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-1.png)
 
 ## 漏洞复现
 
@@ -49,13 +49,13 @@ public function actionUpsharestatus()
 	}
 ```
 
-![](image/tongdaoa-42.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-42.png)
 
 其中 **updateAll()** 函数并没有使用防止 SQL注入的 **sql_injection()** 来防止注入
 
 **webroot/inc/conn.php**
 
-![](image/tongdaoa-43.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-43.png)
 
 所以这里就出现了 id 参数存在注入的情况，请求包如下
 
@@ -92,9 +92,9 @@ uid=15&status=1&id=1;select sleep(4)
 
 例如这里使用官网的测试账户 uid 遍历出为 15
 
-![](image/tongdaoa-45.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-45.png)
 
 如果uid错误则不会出现时间延迟，将请求包放入 Sqlmap跑一下
 
-![](image/tongdaoa-46.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-46.png)
 

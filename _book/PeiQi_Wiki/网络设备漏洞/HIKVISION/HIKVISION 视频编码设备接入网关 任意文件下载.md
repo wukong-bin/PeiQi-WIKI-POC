@@ -18,7 +18,7 @@
 
 ## 漏洞复现
 
-![](image/hiv-3.png)
+![](http://wikioss.peiqi.tech/vuln/hiv-3.png)
 
 漏洞文件为 **downFile.php**, 其中 **参数 fileName** 没有过滤危险字符，导致可文件遍历下载
 
@@ -47,7 +47,7 @@ if   (!file_exists($file_dir.$file_name))   {   //检查文件是否存在
 
 访问 http://xxx.xxx.xxx.xxx/serverLog/downFile.php?fileName=../web/html/serverLog/downFile.php 下载文件
 
-![](image/hiv-1.png)
+![](http://wikioss.peiqi.tech/vuln/hiv-1.png)
 
 ## 漏洞利用POC
 
@@ -91,7 +91,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/hiv-2.png)
+![](http://wikioss.peiqi.tech/vuln/hiv-2.png)
 
 ## Goby & POC
 
@@ -101,4 +101,4 @@ if __name__ == '__main__':
 >
 > HIKVISION_Video_coding_equipment_Download_any_file
 
-![](image/hiv-4.png)
+![](http://wikioss.peiqi.tech/vuln/hiv-4.png)

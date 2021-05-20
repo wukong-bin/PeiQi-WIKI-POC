@@ -14,7 +14,7 @@ Apache Kylin Console 控制台存在默认弱口令 **admin：KYLIN**，可被�
 
 打开后目标站点使用默认账号密码**admin/KYLIN**登录，出现初始界面即为成功
 
-![](image/kylin-1.png)
+![](http://wikioss.peiqi.tech/vuln/kylin-1.png)
 
 ## Goby & POC
 
@@ -24,4 +24,4 @@ Apache Kylin Console 控制台存在默认弱口令 **admin：KYLIN**，可被�
 >
 > Apache_Kylin_Console_Default_password.json
 
-![](image/kylin-26.png)
+![](http://wikioss.peiqi.tech/vuln/kylin-26.png)

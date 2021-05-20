@@ -151,6 +151,6 @@ copy_shellcode(rwx_page_addr, shellcode);
 f();
 ```
 
-![](image/chr-1.png)
+![](http://wikioss.peiqi.tech/vuln/chr-1.png)
 
 `

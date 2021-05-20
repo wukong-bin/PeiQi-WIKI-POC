@@ -20,10 +20,10 @@ JCG JHR-N835R 后台存在命令执行，通过 ; 分割 ping 命令导致任意
 
 登录页面 admin admin登录
 
-![](image/jcg-2.png)
+![](http://wikioss.peiqi.tech/vuln/jcg-2.png)
 
 在后台系统工具那使用 PING工具，使用 ; 命令执行绕过
 
-![](image/jcg-3.png)
+![](http://wikioss.peiqi.tech/vuln/jcg-3.png)
 
-![](image/jcg-1.png)
+![](http://wikioss.peiqi.tech/vuln/jcg-1.png)

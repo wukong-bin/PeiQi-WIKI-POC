@@ -1,5 +1,35 @@
 # 文库更新时间线记录🦄
 
+###### 2021-5-20 蓝海卓越计费管理系统 debug.php 远程命令执行漏洞
+
+###### 2021-5-19 汉王人脸考勤管理系统 Check SQL注入漏洞
+
+###### 2021-5-18 Cisco ASA设备任意文件删除漏洞 CVE-2020-3187
+
+###### 2021-5-18 Cisco HyperFlex HX storfs-asup 远程命令执行漏洞 CVE-2021-1497
+
+###### 2021-5-18 Cisco HyperFlex HX upload 任意文件上传漏洞 CVE-2021-1499
+
+###### 2021-5-18 会捷通云视讯 fileDownload 任意文件读取漏洞
+
+###### 2021-5-18 会捷通云视讯 登录绕过漏洞
+
+###### 2021-5-17 泛微OA weaver.common.Ctrl 任意文件上传漏洞
+
+###### 2021-5-16 启莱OA messageurl.aspx SQL注入漏洞
+
+###### 2021-5-16 启莱OA treelist.aspx SQL注入漏洞
+
+###### 2021-5-16 启莱OA CloseMsg.aspx SQL注入漏洞
+
+###### 2021-5-16 Selea OCR-ANPR摄像机 SeleaCamera 任意文件读取漏洞
+
+###### 2021-5-15 Selea OCR-ANPR摄像机 get_file.php 任意文件读取漏洞
+
+###### 2021-5-16 D-Link Dir-645 getcfg.php 账号密码泄露漏洞 CVE-2019-17506
+
+###### 2021-5-15 心理测量平台 目录遍历漏洞 CNVD-2021-01929
+
 ###### 2021-5-15 ZeroShell 3.9.0 远程命令执行漏洞 CVE-2019-12725
 
 ###### 2021-5-14 狮子鱼CMS wxapp.php 任意文件上传漏洞

@@ -16,11 +16,11 @@ Apache ActiveMQ 默认开启了 8186 控制台
 
 访问目标: http://xxx.xxx.xxx.xxx:8161/admin
 
-![](image/mq-1.png)
+![](http://wikioss.peiqi.tech/vuln/mq-1.png)
 
 使用默认口令 admin:admin
 
-![](image/mq-2.png)
+![](http://wikioss.peiqi.tech/vuln/mq-2.png)
 
 ## Goby & POC
 
@@ -28,6 +28,6 @@ Apache ActiveMQ 默认开启了 8186 控制台
 >
 > Apache ActiveMQ_Console Weak Password
 
-![](image/mq-6.png)
+![](http://wikioss.peiqi.tech/vuln/mq-6.png)
 
-![](image/mq-7.png)
+![](http://wikioss.peiqi.tech/vuln/mq-7.png)

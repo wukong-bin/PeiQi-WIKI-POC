@@ -26,6 +26,6 @@
 
 将会下载人员列表文件
 
-![](image/xd-1.png)
+![](http://wikioss.peiqi.tech/vuln/xd-1.png)
 
 通过获取的登录名登陆后台(默认密码11111)

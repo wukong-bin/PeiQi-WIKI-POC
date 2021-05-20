@@ -114,6 +114,6 @@ echo "<p class=\"paginate\">Page: $pages->current_page of $pages->num_pages</p>\
 /useradmin.inc.php
 ```
 
-![](image/rc-1.png)
+![](http://wikioss.peiqi.tech/vuln/rc-1.png)
 
 泄露用户信息

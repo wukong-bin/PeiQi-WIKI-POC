@@ -40,8 +40,8 @@ Content-Length: 201
 t=l&e=0&s=t&l=1&vid=2147483647 or 1=1&gid=0&lmt=10&o=r_Speed&asc=false&p=8&lipf=&lipt=&ripf=&ript=&dscp=&proto=&lpf=&lpt=&rpf=&rpt=@。。
 ```
 
-![](image/trx-5.png)
+![](http://wikioss.peiqi.tech/vuln/trx-5.png)
 
-![](image/trx-6.png)
+![](http://wikioss.peiqi.tech/vuln/trx-6.png)
 
 存在SQL盲注

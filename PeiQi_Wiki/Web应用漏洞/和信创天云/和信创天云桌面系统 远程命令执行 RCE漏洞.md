@@ -14,7 +14,7 @@
 
 登录页面如下
 
-![](image/hx-1.png)
+![](http://wikioss.peiqi.tech/vuln/hx-1.png)
 
 发送请求包如下
 
@@ -45,7 +45,7 @@ Content-Type: image/avif
 http://xxx.xx.xxx.xxx/Upload/1/peiqi.php
 ```
 
-![](image/hx-2.png)
+![](http://wikioss.peiqi.tech/vuln/hx-2.png)
 
 ## 漏洞POC
 
@@ -98,4 +98,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/hx-3.png)
+![](http://wikioss.peiqi.tech/vuln/hx-3.png)

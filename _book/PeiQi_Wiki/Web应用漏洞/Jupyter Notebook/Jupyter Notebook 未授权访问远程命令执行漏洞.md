@@ -22,8 +22,8 @@ Jupyter Notebook（此前被称为 IPython notebook）是一个交互式笔记�
 
 访问目标, 点击 Terminal 打开命令行界面
 
-![](image/ju-1.png)
+![](http://wikioss.peiqi.tech/vuln/ju-1.png)
 
 执行命令并反弹shell
 
-![](image/ju-2.png)
+![](http://wikioss.peiqi.tech/vuln/ju-2.png)

@@ -20,11 +20,11 @@
 
 账号密码 admin/000000
 
-![](image/jh-1.png)
+![](http://wikioss.peiqi.tech/vuln/jh-1.png)
 
 登录后台
 
-![](image/jh-2.png)
+![](http://wikioss.peiqi.tech/vuln/jh-2.png)
 
 ## Goby & POC
 
@@ -34,4 +34,4 @@
 >
 > JingHe_OA_C6_Default_password
 
-![](image/jh-3.png)
+![](http://wikioss.peiqi.tech/vuln/jh-3.png)

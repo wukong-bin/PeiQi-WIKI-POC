@@ -1,3 +1,3 @@
 # Web服务器漏洞🦔
 
-![](../background/image-2.png) 
+![image-2](https://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/img/image-2.png) 

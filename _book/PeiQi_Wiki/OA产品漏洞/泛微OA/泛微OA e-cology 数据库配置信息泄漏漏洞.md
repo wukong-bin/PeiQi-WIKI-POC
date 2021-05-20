@@ -18,7 +18,7 @@
 
 根据源码可以得到DES密钥为 1z2x3c4v5b6n（也有1z2x3c4v的,可以按此规律来爆破）
 
-![](image/fanwei-8.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-8.png)
 
 可以看到会将当前连接数据库的用户名密码，url，logintype等信息进行des加密，并最终进行返回，可以直接通过des解密获取泄露信息。
 

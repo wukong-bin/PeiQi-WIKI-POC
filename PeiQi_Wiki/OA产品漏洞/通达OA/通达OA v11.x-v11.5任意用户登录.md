@@ -23,7 +23,7 @@ https://cdndown.tongda2000.com/oa/2019/TDOA11.4.exe
 
 双击安装即可
 
-![](image/tongdaoa-1.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-1.png)
 
 ## 漏洞复现
 
@@ -36,7 +36,7 @@ root@kali:~/桌面# python3 1.py -v 11 -u http://xx.xxx.xxx.xxx
 
 成功获得Cookie,添加Cookie访问 **http://xxx.xxx.xxx.xxx/general/index.php?isIE=0&modify_pwd=0**即可
 
-![](image/tongdaoa-2.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-2.png)
 
 ## 漏洞利用POC
 

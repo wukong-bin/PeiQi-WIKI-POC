@@ -32,15 +32,15 @@ String fileid = "Ewv";<br>
         }}
 ```
 
-![](image/fanwei-9.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-9.png)
 
-![](image/fanwei-10.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-10.png)
 
-![](image/fanwei-11.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-11.png)
 
-![](image/fanwei-12.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-12.png)
 
-![](image/fanwei-13.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-13.png)
 
 ## 参考文章
 

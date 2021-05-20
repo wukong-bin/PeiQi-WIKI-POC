@@ -14,7 +14,7 @@
 
 泛型微生态OA系统的WorkflowCenterTreeData接口在使用Oracle数据库时，由于内置sql语句分解不严密，导致其存在的sql注入漏洞
 
-![](image/fanwei-7.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-7.png)
 
 漏洞请求包
 

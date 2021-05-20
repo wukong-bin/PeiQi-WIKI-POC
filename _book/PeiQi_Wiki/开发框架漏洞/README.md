@@ -1,3 +1,3 @@
 # 开发框架漏洞🐇
 
-![](../background/image-6.png)
+![image-6](https://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/img/image-6.png)

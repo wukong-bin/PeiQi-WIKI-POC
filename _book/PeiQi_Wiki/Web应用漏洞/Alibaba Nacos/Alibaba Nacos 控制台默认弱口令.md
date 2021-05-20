@@ -14,7 +14,7 @@ Alibaba Nacos 控制台存在默认弱口令 **nacos/nacos**，可登录后台�
 
 发送如下请求
 
-![](image/nacos-12.png)
+![](http://wikioss.peiqi.tech/vuln/nacos-12.png)
 
 返回200说明成功登录
 
@@ -26,4 +26,4 @@ Alibaba Nacos 控制台存在默认弱口令 **nacos/nacos**，可登录后台�
 >
 > Alibaba_Nacos_Default_password.json
 
-![](image/nacos-13.png)
+![](http://wikioss.peiqi.tech/vuln/nacos-13.png)

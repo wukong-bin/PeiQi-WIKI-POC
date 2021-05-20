@@ -196,6 +196,6 @@ $ python3 Struts2Scan.py -u http://192.168.100.8:8080/index.action -n S2-016 --u
 
 因部分原因，原作者关闭漏洞利用，如需利用可删除以下代码使用
 
-![](image/struts-1.png)
+![](http://wikioss.peiqi.tech/vuln/struts-1.png)
 
-![](image/struts-2.png)
+![](http://wikioss.peiqi.tech/vuln/struts-2.png)

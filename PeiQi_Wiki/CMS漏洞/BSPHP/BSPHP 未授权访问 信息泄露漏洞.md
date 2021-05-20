@@ -24,5 +24,5 @@ BSPHP 存在未授权访问 泄露用户 IP 和 账户名信息
 http://xxx.xxx.xxx.xxx/admin/index.php?m=admin&c=log&a=table_json&json=get&soso_ok=1&t=user_login_log&page=1&limit=10&bsphptime=1600407394176&soso_id=1&soso=&DESC=0‘
 ```
 
-![](image/bsphp-1.png)
+![bsphp-1](http://wikioss.peiqi.tech/vuln/bsphp-1.png)
 

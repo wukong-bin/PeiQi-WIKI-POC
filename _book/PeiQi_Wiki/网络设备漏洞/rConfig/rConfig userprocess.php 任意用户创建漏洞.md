@@ -319,11 +319,11 @@ Content-Disposition: form-data; name="editid"
 --b1467349fcce4aa0ae8d44439f4e06bc--
 ```
 
-![](image/rc-2.png)
+![](http://wikioss.peiqi.tech/vuln/rc-2.png)
 
 成功创建用户 pqtest，以管理员身份登录后台
 
-![](image/rc-3.png)
+![](http://wikioss.peiqi.tech/vuln/rc-3.png)
 
 
 
@@ -393,4 +393,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/rc-4.png)
+![](http://wikioss.peiqi.tech/vuln/rc-4.png)

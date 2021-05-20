@@ -20,7 +20,7 @@
 
 登录的账号密码为 **guest/guest**
 
-![](image/ruijie-20.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-20.png)
 
 ## Goby & POC
 
@@ -30,4 +30,4 @@
 >
 > Ruijie smartweb weak password
 
-![](image/ruijie-21.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-21.png)

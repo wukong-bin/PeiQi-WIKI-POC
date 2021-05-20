@@ -24,7 +24,7 @@
 
 登录页面如下
 
-![](image/fy-4.png)
+![](http://wikioss.peiqi.tech/vuln/fy-4.png)
 
 登录抓取请求包
 
@@ -51,6 +51,6 @@ __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2FwEPDwUKMTE5NTI5NDc1Ng8WAh4TVmFsaW
 
 其中注入的参数为 POST数据中的 **txtName** 参数, 保存为文件使用 Sqlmap跑一下
 
-![](image/fy-5.png)
+![](http://wikioss.peiqi.tech/vuln/fy-5.png)
 
-![](image/fy-6.png)
+![](http://wikioss.peiqi.tech/vuln/fy-6.png)

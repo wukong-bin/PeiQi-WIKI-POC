@@ -24,11 +24,11 @@ E-message 存在越权访问漏洞，由于配置页面没有做权限设定，�
 http://xxx.xxx.xxx.xxx/setup/setup-datasource-standard.jsp
 ```
 
-![](image/ema-1.png)
+![](http://wikioss.peiqi.tech/vuln/ema-1.png)
 
 可以获取账号密码信息，一路点击右下角的继续将会跳转修改管理员账号密码页面，修改后登录即可获取后台权限
 
-![](image/ema-2.png)
+![](http://wikioss.peiqi.tech/vuln/ema-2.png)
 
 
 

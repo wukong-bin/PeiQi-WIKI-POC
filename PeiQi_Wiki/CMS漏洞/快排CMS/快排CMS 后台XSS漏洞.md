@@ -18,11 +18,11 @@ https://gitee.com/qingzhanwang/kpcms
 
 漏洞出现在登录后台的网站编辑的位置，由于没有对输出的字符进行过滤，导致XSS
 
-![](image/kp-8.png)
+![](http://wikioss.peiqi.tech/vuln/kp-8.png)
 
 主页版权处嵌入XSS代码
 
-![](image/kp-10.png)
+![](http://wikioss.peiqi.tech/vuln/kp-10.png)
 
-![](image/kp-9.png)
+![](http://wikioss.peiqi.tech/vuln/kp-9.png)
 

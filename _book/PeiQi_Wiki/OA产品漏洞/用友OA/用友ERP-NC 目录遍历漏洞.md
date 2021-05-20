@@ -24,11 +24,11 @@ POC为
 /NCFindWeb?service=IPreAlertConfigService&filename=
 ```
 
-![](image/yongyou-8.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-8.png)
 
 查看 ncwslogin.jsp 文件
 
-![](image/yongyou-9.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-9.png)
 
 ## Goby & POC
 
@@ -36,4 +36,4 @@ POC为
 >
 > YongYou ERP-NC directory traversal
 
-![](image/yongyou-10.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-10.png)

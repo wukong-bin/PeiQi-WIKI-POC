@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/lh-1.png)
+![](http://wikioss.peiqi.tech/vuln/lh-1.png)
 
 出现漏洞的文件为 download.php ，其中 file参数 存在用户可控
 
@@ -40,4 +40,8 @@ Cookie: PHPSESSID=qkoqsiilc4dol8s4e9d7ta15g7; mylang=zh_s
 Connection: close
 ```
 
-![](image/lh-2.png)
+![](http://wikioss.peiqi.tech/vuln/lh-2.png)
+
+## Goby & POC
+
+![](http://wikioss.peiqi.tech/vuln/lh-3.png)

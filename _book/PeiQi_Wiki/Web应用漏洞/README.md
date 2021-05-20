@@ -1,3 +1,3 @@
 # Web应用漏洞🦌
 
-![](../background/image-7.png)
+![image-7](https://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/img/image-7.png)

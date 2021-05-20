@@ -20,7 +20,7 @@
 
 存在漏洞的OA 系统将会下载 **datasourceCtp.properties** 配置文件
 
-![](image/zhiyuan-11.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-11.png)
 
 更改参数 filePath 可下载其他文件
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/zhiyuan-12.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-12.png)
 
 ## Goby & POC
 
@@ -72,4 +72,4 @@ if __name__ == '__main__':
 >
 > 致远OA webmail.do任意文件下载 CNVD-2020-62422
 
-![](image/zhiyuan-13.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-13.png)

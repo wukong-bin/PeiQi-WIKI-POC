@@ -37,7 +37,7 @@ method=access&enc=TT5uZnR0YmhmL21qb2wvZXBkL2dwbWVmcy9wcWZvJ04%2BLjgzODQxNDMxMjQz
 >
 > 返回包出现 Sset-Cookie 和 a8genius.do 即为成功获取
 
-![](image/zhiyuan-46.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-46.png)
 
 上传压缩包添加 Cookie上传
 
@@ -106,7 +106,7 @@ method=ajaxAction&managerName=portalDesignerManager&managerMethod=uploadPageLayo
 >
 > 其中含有zip压缩包 shell.zip, 如果上传失败更改一下文件名
 
-![](image/zhiyuan-47.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-47.png)
 
 ```python
 # coding: utf-8
@@ -182,4 +182,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/zhiyuan-48.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-48.png)

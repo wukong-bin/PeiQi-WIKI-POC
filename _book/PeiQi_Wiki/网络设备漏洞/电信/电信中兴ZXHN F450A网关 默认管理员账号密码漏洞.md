@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/dx-5.png)
+![](http://wikioss.peiqi.tech/vuln/dx-5.png)
 
 
 
@@ -31,4 +31,4 @@ useradmin/nE7jA%5m 普通管理员
 telecomadmin/nE7jA%5m 超级管理员
 ```
 
-![](image/dx-6.png)
+![](http://wikioss.peiqi.tech/vuln/dx-6.png)

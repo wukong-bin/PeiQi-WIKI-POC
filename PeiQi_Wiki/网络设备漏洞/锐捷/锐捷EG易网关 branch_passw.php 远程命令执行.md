@@ -145,7 +145,7 @@ pass=|cat /etc/psswd>../pq_test.txt
 http://xxx.xxx.xxx.xxx/pq_test.txt
 ```
 
-![](image/ruijie-29.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-29.png)
 
 ## 漏洞POC
 
@@ -250,4 +250,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/ruijie-30.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-30.png)

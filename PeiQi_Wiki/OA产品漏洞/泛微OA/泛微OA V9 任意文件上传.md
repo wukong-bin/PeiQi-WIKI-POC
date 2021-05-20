@@ -20,7 +20,7 @@ Jsp流程大概是:判断请求是否是multipart请求,然就没有了,直接�
 
 Filename参数,是前台可控的,并且没有做任何过滤限制
 
-![](image/fanwei-14.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-14.png)
 
 利用非常简单,只要对着
 
@@ -28,13 +28,13 @@ Filename参数,是前台可控的,并且没有做任何过滤限制
 
 来一个multipartRequest就可以,利用简单,自评高危!!
 
-![](image/fanwei-15.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-15.png)
 
 然后请求 然后请求路径:
 
 page/exportImport/fileTransfer/1.jsp
 
-![](image/fanwei-16.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-16.png)
 
 请求包
 

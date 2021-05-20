@@ -24,7 +24,7 @@
 http://xxx.xxx.xxx.xxx/yyoa/DownExcelBeanServlet?contenttype=username&contentvalue=&state=1&per_id=0
 ```
 
-![](image/zhiyuan-18.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-18.png)
 
 可以再利用得到的用户名使用弱口令爆破进入OA进一步攻击
 
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     Scan(file_name)
 ```
 
-![](image/zhiyuan-19.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-19.png)
 
 ## Goby & POC
 
@@ -91,4 +91,4 @@ if __name__ == '__main__':
 >
 > Seeyon_OA_A6_DownExcelBeanServlet_User_information_leakage
 
-![](image/zhiyuan-20.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-20.png)

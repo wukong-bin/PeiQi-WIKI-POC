@@ -174,4 +174,4 @@ else
 /download.php?file=/etc/passwd
 ```
 
-![](image/fl-1.png)
+![](http://wikioss.peiqi.tech/vuln/fl-1.png)

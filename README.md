@@ -8,7 +8,7 @@
 
 想要投稿文库中没有的漏洞时，请扫描下面的二维码加我备注文库投稿，欢迎师傅一起来建立文库啦~
 
-![](PeiQi_Wiki/background/PeiQi文库.gif)
+![PeiQi文库](http://wikioss.peiqi.tech/img/PeiQi%E6%96%87%E5%BA%93.gif)
 
 ## 使用需知
 
@@ -30,15 +30,15 @@ Goby & EXP 与 POC 仅仅只供对已授权的目标使用测试，对未授权�
 >
 > 如果想要加入交流群，进入公众号点击交流群 加运维小哥哥拉你啦🐧
 
-![](PeiQi_Wiki/background/background.png)
+![background](http://wikioss.peiqi.tech/img/background.png)
 
-![](PeiQi_Wiki/background/background_wx2.png)
+![background_wx2](http://wikioss.peiqi.tech/img/background_wx2.png)
 
-![](PeiQi_Wiki/background/background_wx.png)
+![background_wx](http://wikioss.peiqi.tech/img/background_wx.png)
 
 ## 知识星球
 
-![](PeiQi_Wiki/background\image-zs.png)
+![image-zs](http://wikioss.peiqi.tech/img/image-zs.png)
 
 
 
@@ -62,60 +62,32 @@ Goby & EXP 与 POC 仅仅只供对已授权的目标使用测试，对未授权�
 >
 > Goby POC 存放于 Goby & POC目录中
 
-![](PeiQi_Wiki/background/image-3.png)
+![image-3](http://wikioss.peiqi.tech/img/image-3.png)
 
 > [!NOTE]
 >
 > 网站目录上方支持正则搜索关键字快速查看
 
-![](PeiQi_Wiki/background/image-4.png)
+![image-4](http://wikioss.peiqi.tech/img/image-4.png)
 
 > [!NOTE]
 >
 > 边框可以调整，字体大小和背景也支持更换
 
-![](PeiQi_Wiki/background/image-5.png)
+![image-5](http://wikioss.peiqi.tech/img/image-5.png)
 
 > [!NOTE]
 >
 > Goby & POC 中的 json 文件可被导入Goby快速验证漏洞
 >
 
-![](PeiQi_Wiki/background/image-13.png)
+![image-20210520194344385](http://wikioss.peiqi.tech/img/image-20210520194344385.png)
 
 ## 如何本地使用
 
-> [!NOTE]
->
-> (方法1)
->
-> 1.Github 拉取代码
->
-> git    clone    https://gitee.com/yelisenyu/wiki.git
->
-> git    clone    https://github.com/PeiQi0/PeiQi-WIKI-POC.git
->
-> ----------------------------------------------------------------------------------
+> 下载Github全部文件，将 _book文件夹 作为网站根目录来搭建文库(此目录为已经编译好的html格式)
 
-> 2.下载 gitbook
->
->    apt   install    npm
->
->    npm   install    gitbook-cli   -g
->
-> ----------------------------------------------------
-
-> 3.打开Wiki的目录下执行
->
->    gitbook   serve
->
-> -----------------------------------------------------------------------------------
-
-> 4.访问 http://localhost:4000 即可
-
-> (方法2)
->
-> 将 _book文件夹 作为网站根目录来搭建文库(此目录为已经编译好的html格式)
+![image-20210520194440762](http://wikioss.peiqi.tech/img/image-20210520194440762.png)
 
 ## 最后
 
@@ -125,5 +97,5 @@ Goby & EXP 与 POC 仅仅只供对已授权的目标使用测试，对未授权�
 
 [![Stargazers over time](https://starchart.cc/PeiQi0/PeiQi-WIKI-POC.svg)](https://starchart.cc/PeiQi0/PeiQi-WIKI-POC)
 
-![](PeiQi_Wiki/background/image-2.png)
+![image-2](http://wikioss.peiqi.tech/img/image-2.png)
 

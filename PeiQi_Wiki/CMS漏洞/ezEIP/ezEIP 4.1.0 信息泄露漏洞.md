@@ -30,4 +30,4 @@ ezEIP 4.1.0 存在信息泄露漏洞，通过遍历Cookie中的参数值获取�
 WHIR_USERINFOR=whir_mem_member_pid=1;
 ```
 
-![](image/ez-1.png)
+![ez-1](http://wikioss.peiqi.tech/vuln/ez-1.png)

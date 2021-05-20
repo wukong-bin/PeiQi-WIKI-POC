@@ -49,7 +49,7 @@ Accept-Encoding: gzip
 var={"body":{"file":"file:///etc/passwd"}}
 ```
 
-![](image/lanling-2.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-2.png)
 
 ## 漏洞POC
 
@@ -101,4 +101,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/lanling-3.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-3.png)

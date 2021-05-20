@@ -20,7 +20,7 @@ MessageSolution企业邮件归档管理系统 EEA是北京易讯思达科技开�
 
 登录页面如下
 
-![](image/mess-1.png)
+![](http://wikioss.peiqi.tech/vuln/mess-1.png)
 
  访问如下Url
 
@@ -28,11 +28,11 @@ MessageSolution企业邮件归档管理系统 EEA是北京易讯思达科技开�
 http://xxx.xxx.xxx.xxx/authenticationserverservlet/
 ```
 
-![](image/mess-2.png)
+![](http://wikioss.peiqi.tech/vuln/mess-2.png)
 
 使用获得到的密码可以登录系统
 
-![](image/mess-3.png)
+![](http://wikioss.peiqi.tech/vuln/mess-3.png)
 
 ## 漏洞利用POC
 
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     POC_1(target_url)
 ```
 
-![](image/mess-4.png)
+![](http://wikioss.peiqi.tech/vuln/mess-4.png)
 
 ## Goby & POC
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 >
 > Goby & POC 已经更新到 Github中
 
-![](image/mess-5.png)
+![](http://wikioss.peiqi.tech/vuln/mess-5.png)
 
 ## 参考文章
 

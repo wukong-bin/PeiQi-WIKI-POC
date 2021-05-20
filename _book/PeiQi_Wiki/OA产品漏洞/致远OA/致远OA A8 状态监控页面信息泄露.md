@@ -24,7 +24,7 @@
 http://xxx.xxx.xxx.xx/seeyon/management/status.jsp
 ```
 
-![](image/zhiyuan-32.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-32.png)
 
 后台密码为 **WLCCYBD@SEEYON**
 
@@ -36,11 +36,11 @@ http://xxx.xxx.xxx.xx/seeyon/management/status.jsp
 /seeyon/logs/v3x.log
 ```
 
-![](image/zhiyuan-33.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-33.png)
 
-![](image\zhiyuan-34.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-34.png)
 
-![](image/zhiyuan-35.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-35.png)
 
 ## 漏洞利用POC
 
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 
 
-![](image/zhiyuan-36.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-36.png)
 
 ## Goby & POC
 
@@ -109,4 +109,4 @@ if __name__ == '__main__':
 >
 > Seeyon OA A8-m Information leakage
 
-![](image/zhiyuan-43.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-43.png)

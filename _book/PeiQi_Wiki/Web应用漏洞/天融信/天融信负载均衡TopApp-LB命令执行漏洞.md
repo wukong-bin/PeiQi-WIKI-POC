@@ -22,8 +22,8 @@
 
 密码:**任意**
 
-![](image/trx-3.png)
+![](http://wikioss.peiqi.tech/vuln/trx-3.png)
 
 成功收到请求
 
-![](image/trx-4.png)
+![](http://wikioss.peiqi.tech/vuln/trx-4.png)

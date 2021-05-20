@@ -28,7 +28,7 @@
 http://xxx.xxx.xxx.xxx/seeyon/thirdpartyController.do.css/..;/ajax.do
 ```
 
-![](image/zhiyuan-5.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-5.png)
 
 查看是否出现如上图异常，若存在则可能出现漏洞
 
@@ -85,11 +85,11 @@ webshell地址: http://xxx.xxx.xxx.xxx/seeyon/PeiQi.jspx
 }
 ```
 
-![](image/zhiyuan-7.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-7.png)
 
 上传后请求webshell地址，访问返回出现如下图则成功写入
 
-![](image/zhiyuan-6.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-6.png)
 
 > [!NOTE]
 >
@@ -99,7 +99,7 @@ webshell地址: http://xxx.xxx.xxx.xxx/seeyon/PeiQi.jspx
 
 使用冰蝎连接:**rebeyond**
 
-![](image/zhiyuan-8.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-8.png)
 
 ## 漏洞利用POC
 
@@ -162,7 +162,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/zhiyuan-9.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-9.png)
 
 文件编码脚本, 自行进行自定义调试
 
@@ -187,7 +187,7 @@ echo $webshell;
 
 ```
 
-![](image/zhiyuan-10.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-10.png)
 
 > [!NOTE]
 >

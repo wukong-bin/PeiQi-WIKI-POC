@@ -20,11 +20,11 @@ Panabit iXCache  后台 ixeye指令输入时存在命令拼接漏洞，将会以
 
 登录页面如下
 
-![](image/pa-1.png)
+![](http://wikioss.peiqi.tech/vuln/pa-1.png)
 
 默认账号密码为：**admin/ixcache**
 
-![](image/pa-2.png)
+![](http://wikioss.peiqi.tech/vuln/pa-2.png)
 
 进入后台后点击命令行，访问Url
 
@@ -32,7 +32,7 @@ Panabit iXCache  后台 ixeye指令输入时存在命令拼接漏洞，将会以
 /cgi-bin/Maintain/cfg_cmd
 ```
 
-![](image/pa-3.png)
+![](http://wikioss.peiqi.tech/vuln/pa-3.png)
 
 输入命令时使用 **;** 即可命令拼接执行任意命令
 
@@ -142,4 +142,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/pa-4.png)
+![](http://wikioss.peiqi.tech/vuln/pa-4.png)

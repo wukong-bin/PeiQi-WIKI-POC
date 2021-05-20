@@ -20,7 +20,7 @@
 
 查看源码发现phpinfo文件 
 
-![](image/ruijie-31.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-31.png)
 
 访问 url
 
@@ -28,4 +28,4 @@
 /tool/view/phpinfo.view.php
 ```
 
-![](image/ruijie-32.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-32.png)

@@ -34,19 +34,19 @@ cVer=9.8.0&dp=<?xml version="1.0" encoding="GB2312"?><R9PACKET version="1"><DATA
 
 请求后按F12查看源代码可以得到SQL语句查询结果
 
-![](image/yongyou-1.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-1.png)
 
-![](image/yongyou-2.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-2.png)
 
 也可以调用 **xp_cmdshell** 来执行系统命令(大部分此系统为**windows**)
 
-![](image/yongyou-3.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-3.png)
 
 > [!NOTE]
 >
 > 注意：大部分默认是不开启 xp_cmdshell 模块的
 
-![](image/yongyou-4.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-4.png)
 
 可以使用如下方法打开**xp_cmdshell方法**
 
@@ -237,4 +237,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/yongyou-5.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-5.png)

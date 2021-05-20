@@ -24,7 +24,7 @@
 /api/v1/canal/config/1/0
 ```
 
-![](image/can-1.png)
+![](http://wikioss.peiqi.tech/vuln/can-1.png)
 
 其中泄露了 aliyun.access 密钥，可以控制密钥下的所有服务器
 
@@ -32,4 +32,4 @@
 
 其中还含有默认口令 **admin/123456**
 
-![](image/can-2.png)
+![](http://wikioss.peiqi.tech/vuln/can-2.png)

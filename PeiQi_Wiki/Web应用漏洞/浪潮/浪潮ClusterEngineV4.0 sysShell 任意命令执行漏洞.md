@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image\lc-1.png)
+![](http://wikioss.peiqi.tech/vuln/lc-1.png)
 
 发送请求包
 
@@ -37,13 +37,13 @@ Content-Length: 42
 op=doPlease&node=cu01&command=cat /etc/passwd
 ```
 
-![](image/lc-17.png)
+![](http://wikioss.peiqi.tech/vuln/lc-17.png)
 
 > [!NOTE]
 >
 > 注意参数 node 中的 cu01 需要为shell集群中的存在主机
 
-![](image/lc-18.png)
+![](http://wikioss.peiqi.tech/vuln/lc-18.png)
 
 这里可以配合任意用户登录漏洞查看主机名
 
@@ -121,7 +121,7 @@ if __name__ == '__main__':
 
 ```
 
-![](image/lc-17.png)
+![](http://wikioss.peiqi.tech/vuln/lc-17.png)
 
 ## Goby & POC
 
@@ -129,4 +129,4 @@ if __name__ == '__main__':
 >
 > ClusterEngine V4.0 Shell cluster RCE
 
-![](image/lc-20.png)
+![](http://wikioss.peiqi.tech/vuln/lc-20.png)

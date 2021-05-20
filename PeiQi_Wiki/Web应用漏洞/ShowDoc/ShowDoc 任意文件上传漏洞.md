@@ -20,7 +20,7 @@ ShowDoc 存在任意文件上传漏洞，攻击者通过构造特殊的数据包
 
 网站首页如下
 
-![](image/sh-1.png)
+![](http://wikioss.peiqi.tech/vuln/sh-1.png)
 
 构造如下数据包上传php文件
 
@@ -40,11 +40,11 @@ Content-Type: text/plain
 ----------------------------921378126371623762173617--
 ```
 
-![](image/sh-2.png)
+![](http://wikioss.peiqi.tech/vuln/sh-2.png)
 
 访问回显的路径
 
-![](image/sh-3.png)
+![](http://wikioss.peiqi.tech/vuln/sh-3.png)
 
 ## 漏洞POC
 
@@ -96,4 +96,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/sh-4.png)
+![](http://wikioss.peiqi.tech/vuln/sh-4.png)

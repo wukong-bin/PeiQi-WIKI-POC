@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/qax-4.png)
+![](http://wikioss.peiqi.tech/vuln/qax-4.png)
 
 发送如下请求包
 
@@ -47,5 +47,8 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 http://xxx.xxx.xxx.xxxx/test_cmd.txt
 ```
 
-![](image/qax-3.png)
+![](http://wikioss.peiqi.tech/vuln/qax-3.png)
 
+## Goby & POC
+
+![](http://wikioss.peiqi.tech/vuln/qax-6.png)

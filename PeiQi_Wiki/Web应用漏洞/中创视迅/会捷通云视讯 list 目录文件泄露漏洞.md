@@ -20,7 +20,7 @@
 
 登陆页面如下
 
-![](image/zc-1.png)
+![](http://wikioss.peiqi.tech/vuln/zc-1.png)
 
 访问Url
 
@@ -28,4 +28,8 @@
 /him/api/rest/V1.0/system/log/list?filePath=../
 ```
 
-![](image/zc-2.png)
+![](http://wikioss.peiqi.tech/vuln/zc-2.png)
+
+## Goby & POC
+
+![](http://wikioss.peiqi.tech/vuln/zc-4.png)

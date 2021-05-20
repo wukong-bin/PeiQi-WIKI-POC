@@ -30,7 +30,7 @@ http://xxx.xxx.xxx.xxx/C6/JHSoft.Web.Dossier/DossierBaseInfoView.aspx?CollID=1&U
 >
 > 注意 RY120330 需要为确定的其他的用户编号
 
-![](image/jh-4.png)
+![](http://wikioss.peiqi.tech/vuln/jh-4.png)
 
 泄露了部分的敏感信息
 

@@ -20,7 +20,7 @@ Panabit Panalog cmdhandle.php 存在后台命令执行漏洞，攻击者可以�
 
 登录页面如下
 
-![](image/pa-5.png)
+![](http://wikioss.peiqi.tech/vuln/pa-5.png)
 
 默认账号密码为：**admin/panabit**
 
@@ -47,7 +47,7 @@ Cookie: cloud_limit=20; cloud_left=block; PHPSESSID=9lpglosgab794j5ouvv0sg7q73
 cmd=cat%2520%252Fetc%252Fpasswd
 ```
 
-![](image/pa-6.png)
+![](http://wikioss.peiqi.tech/vuln/pa-6.png)
 
 ## 漏洞POC
 
@@ -139,4 +139,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/pa-7.png)
+![](http://wikioss.peiqi.tech/vuln/pa-7.png)

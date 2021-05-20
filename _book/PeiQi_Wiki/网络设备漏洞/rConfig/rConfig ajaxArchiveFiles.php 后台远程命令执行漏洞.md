@@ -107,7 +107,7 @@ Content-Length: 2
 
 再请求 **http://xxx.xxx.xxx.xxx/pq.txt** 验证漏洞
 
-![](image/rc-5.png)
+![](http://wikioss.peiqi.tech/vuln/rc-5.png)
 
 ## 漏洞POC
 
@@ -211,4 +211,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/rc-6.png)
+![](http://wikioss.peiqi.tech/vuln/rc-6.png)

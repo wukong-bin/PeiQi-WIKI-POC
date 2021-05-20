@@ -30,8 +30,8 @@ User-Agentt: zerodiumsystem('id');
 >
 > 是 User-Agentt 不是 User-Agent
 
-![](image/php-1.png)
+![](http://wikioss.peiqi.tech/vuln/php-1.png)
 
 反弹shell
 
-![](image/php-2.png)
+![](http://wikioss.peiqi.tech/vuln/php-2.png)

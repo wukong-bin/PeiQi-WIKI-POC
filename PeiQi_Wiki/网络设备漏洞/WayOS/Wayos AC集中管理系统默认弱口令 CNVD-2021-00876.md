@@ -22,9 +22,9 @@ AC集中管理平台存在弱口令漏洞，攻击者可利用该漏洞获取敏
 
 默认弱口令为 admin:admin
 
-![](image/wayos-1.png)
+![](http://wikioss.peiqi.tech/vuln/wayos-1.png)
 
-![](image/wayos-2.png)
+![](http://wikioss.peiqi.tech/vuln/wayos-2.png)
 
 ## Goby & POC
 
@@ -34,4 +34,4 @@ AC集中管理平台存在弱口令漏洞，攻击者可利用该漏洞获取敏
 >
 > Wayos_AC_Centralized_management_system_Default_weak_password
 
-![](image/wayos-3.png)
+![](http://wikioss.peiqi.tech/vuln/wayos-3.png)

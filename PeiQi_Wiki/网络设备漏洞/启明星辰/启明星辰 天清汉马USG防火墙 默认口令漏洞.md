@@ -20,15 +20,15 @@
 
 默认口令
 
-![](image\qm-2.png)
+![](http://wikioss.peiqi.tech/vuln/qm-2.png)
 
 ```
 账号：useradmin
 密码：venus.user
 ```
 
-![](image/qm-1.png)
+![](http://wikioss.peiqi.tech/vuln/qm-1.png)
 
 成功登录
 
-![](image/qm-3.png)
+![](http://wikioss.peiqi.tech/vuln/qm-3.png)

@@ -20,12 +20,12 @@ Hue 后台编辑器存在命令执行漏洞，攻击者通过编辑上传  xxx.s
 
 登录页面如下
 
-![](image/hue-1.png)
+![](http://wikioss.peiqi.tech/vuln/hue-1.png)
 
 上传并编辑文件为执行的命令
 
-![](image/hue-2.png)
+![](http://wikioss.peiqi.tech/vuln/hue-2.png)
 
 按如下步骤点击即可执行想要执行的命令
 
-![](image/hue-3.png)
+![](http://wikioss.peiqi.tech/vuln/hue-3.png)

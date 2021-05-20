@@ -18,7 +18,7 @@
 
 原版的源码需要付费，可找到免费版的源码
 
-![](image/huayi-1.png)
+![](http://wikioss.peiqi.tech/vuln/huayi-1.png)
 
 在目录下的DATA目录中有**mdb文件**, 打开后可以发现存在默认的两个用户
 
@@ -28,11 +28,11 @@
 >
 > lu123/cui123
 
-![](image/huayi-2.png)
+![](http://wikioss.peiqi.tech/vuln/huayi-2.png)
 
 使用 用户lu123 即可登录超级管理员
 
-![](image/huayi-3.png)
+![](http://wikioss.peiqi.tech/vuln/huayi-3.png)
 
 ## 参考文章
 

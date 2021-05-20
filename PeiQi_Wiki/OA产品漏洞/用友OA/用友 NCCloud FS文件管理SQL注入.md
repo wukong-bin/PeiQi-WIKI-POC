@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/yongyou-13.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-13.png)
 
 在应用中存在文件服务器管理登录页面
 
@@ -28,7 +28,7 @@
 http://xxx.xxx.xxx.xxx/fs/
 ```
 
-![](image/yongyou-14.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-14.png)
 
 登录请求包如下
 
@@ -50,5 +50,5 @@ Connection: close
 sqlmap -r sql.txt -p username 
 ```
 
-![](image/yongyou-15.png)
+![](http://wikioss.peiqi.tech/vuln/yongyou-15.png)
 

@@ -25,9 +25,9 @@
 /yyoa/ext/createMysql.jsp
 ```
 
-![](image/zhiyuan-14.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-14.png)
 
-![](image/zhiyuan-15.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-15.png)
 
 ## 漏洞利用POC
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](image/zhiyuan-16.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-16.png)
 
 ## Goby & POC
 
@@ -85,4 +85,4 @@ if __name__ == '__main__':
 >
 > Seeyon_OA_A6__Disclosure_of_database_sensitive_information
 
-![](image/zhiyuan-17.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-17.png)

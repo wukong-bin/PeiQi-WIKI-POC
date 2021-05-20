@@ -20,8 +20,8 @@
 
 登录后台后管理界面点击下面的图标
 
-![](image/qm-4.png)
+![](http://wikioss.peiqi.tech/vuln/qm-4.png)
 
 更改权限为任意用户,刷新后得到用户权限
 
-![](image/qm-5.png)
+![](http://wikioss.peiqi.tech/vuln/qm-5.png)

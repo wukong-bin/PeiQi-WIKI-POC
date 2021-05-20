@@ -18,8 +18,8 @@
 
 在登录页面中输入，账号:**任意账号**  密码:**;id**
 
-![](image/trx-1.png)
+![](http://wikioss.peiqi.tech/vuln/trx-1.png)
 
 成功登录
 
-![](image/trx-2.png)
+![](http://wikioss.peiqi.tech/vuln/trx-2.png)

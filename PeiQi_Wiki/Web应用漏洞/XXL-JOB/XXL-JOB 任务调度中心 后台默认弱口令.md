@@ -20,9 +20,9 @@ XXL-JOB 任务调度中心 后台存在默认弱口令，攻击者可以在后�
 
 使用默认口令登录 admin 123456
 
-![](image/xxl-1.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-1.png)
 
-![](image/xxl-2.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-2.png)
 
 ## Goby & POC
 
@@ -32,4 +32,4 @@ XXL-JOB 任务调度中心 后台存在默认弱口令，攻击者可以在后�
 >
 > XXL_JOB_Default_password
 
-![](image/xxl-3.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-3.png)

@@ -65,7 +65,7 @@ if ($PHOTO_NAME0 != "") {
 }
 ```
 
-![](image/tongdaoa-30.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-30.png)
 
 在这里参数 **$USER_ID** 是可控的，并且无过滤危险符号就拼接进去了，那我们传入 **../../../** 我们就可以任意文件上传了
 
@@ -119,21 +119,21 @@ auto_prepend_file=peiqi.log
 
 这里拼接后上传就变成了 **.user.ini**
 
-![](image\tongdaoa-31.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-31.png)
 
 这里再上传 XSS文件 **peiqi.log** 被包含进去
 
-![](image\tongdaoa-32.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-32.png)
 
 上传后每次管理员登录后都会带着Cookie请求一次XSS平台
 
-![](image\tongdaoa-33.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-33.png)
 
 钓鱼什么的代码写在peiqi.log文件里就好啦
 
 刚刚提到了 v11.7版本不方便利用，这是因为在后续版本加上了文件上传的规定路径
 
-![](image\tongdaoa-34.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-34.png)
 
 ```php
 if ((strpos($source, "webroot") !== false) && (strpos($source, "attachment") === false)) {
@@ -146,11 +146,11 @@ if ((strpos($source, "webroot") !== false) && (strpos($source, "attachment") ===
 
 路径中必须要包含  **webroot 和 attachment** 才可以上传
 
-![](image\tongdaoa-35.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-35.png)
 
  这里XSS的利用点有4个文件夹，其中最有几率XSS的为**存储目录管理的文件夹**
 
-![](image\tongdaoa-36.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-36.png)
 
 用同样的方法上传利用文件，每次当管理员设置时就会盗取Cookie
 
@@ -263,7 +263,7 @@ if __name__ == '__main__':
 
 ```
 
-![](image\tongdaoa-37.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-37.png)
 
 ## 参考文章
 

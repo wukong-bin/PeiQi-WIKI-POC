@@ -20,7 +20,7 @@ TVT数码科技 TVT NVMS-1000是中国TVT数码科技公司的一套网络监控
 
 登录页面如下
 
-![](image/tvt-1.png)
+![](http://wikioss.peiqi.tech/vuln/tvt-1.png)
 
 发送请求包读取文件
 
@@ -36,4 +36,4 @@ Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6
 Connection: close
 ```
 
-![](image/tvt-2.png)
+![](http://wikioss.peiqi.tech/vuln/tvt-2.png)

@@ -20,7 +20,7 @@ Kyan 网络监控设备 存在账号密码泄露漏洞，攻击者通过漏洞�
 
 登录页面如下
 
-![](image/ky-1.png)
+![](http://wikioss.peiqi.tech/vuln/ky-1.png)
 
 POC
 
@@ -28,7 +28,7 @@ POC
 http://xxx.xxx.xxx.xxx/hosts
 ```
 
-![](image/ky-2.png)
+![](http://wikioss.peiqi.tech/vuln/ky-2.png)
 
 成功获得账号密码
 
@@ -38,7 +38,7 @@ http://xxx.xxx.xxx.xxx/hosts
 >
 > Kyan design account password disclosure
 
-![](image/ky-3.png)
+![](http://wikioss.peiqi.tech/vuln/ky-3.png)
 
 ## 参考文章
 

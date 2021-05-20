@@ -1,5 +1,31 @@
 # Goby & POC 更新时间线记录🐟
 
+###### 2021-5-29 蓝海卓越计费管理系统 debug.php 远程命令执行漏洞
+
+###### 2021-5-19 H3C SecParh堡垒机 get_detail_view.php 任意用户登录漏洞
+
+###### 2021-5-19 H3C IMC dynamiccontent.properties.xhtm 远程命令执行
+
+###### 2021-5-19 蓝海卓越计费管理系统 download.php 任意文件读取漏洞
+
+###### 2021-5-18 狮子鱼CMS ApigoodController.class.php SQL注入漏洞
+
+###### 2021-5-18 狮子鱼CMS ApiController.class.php SQL注入漏洞
+
+###### 2021-5-18 D-Link Dir-645 getcfg.php 账号密码泄露漏洞 CVE-2019-17506
+
+###### 2021-5-18 Selea OCR-ANPR摄像机 SeleaCamera 任意文件读取漏洞
+
+###### 2021-5-18 Selea OCR-ANPR摄像机 get_file.php 任意文件读取漏洞
+
+###### 2021-5-18 启莱OA CloseMsg.aspx SQL注入漏洞
+
+###### 2021-5-18 会捷通云视讯 list 目录文件泄露漏洞
+
+###### 2021-5-18 会捷通云视讯 fileDownload 任意文件读取漏洞
+
+###### 2021-5-18 ACTI 视频监控 任意文件读取漏洞
+
 ###### 2021-4-14 Coremail 配置信息泄露漏洞
 
 ###### 2021-4-12 SonarQube api 信息泄露漏洞 CVE-2020-27986

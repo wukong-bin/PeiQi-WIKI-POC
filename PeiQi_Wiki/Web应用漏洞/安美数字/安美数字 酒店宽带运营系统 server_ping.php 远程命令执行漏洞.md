@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](image/am-1.png)
+![](http://wikioss.peiqi.tech/vuln/am-1.png)
 
 存在漏洞的文件为 **server_ping.php**
 
@@ -68,7 +68,7 @@ Host:
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
 ```
 
-![](image/am-2.png)
+![](http://wikioss.peiqi.tech/vuln/am-2.png)
 
 ## 漏洞POC
 
@@ -131,4 +131,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/am-3.png)
+![](http://wikioss.peiqi.tech/vuln/am-3.png)

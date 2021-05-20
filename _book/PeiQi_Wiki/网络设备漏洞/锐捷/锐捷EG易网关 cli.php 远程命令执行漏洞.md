@@ -164,7 +164,7 @@ Accept-Encoding: gzip
 notdelay=true&command=id
 ```
 
-![](image/ruijie-28.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-28.png)
 
 ## 漏洞POC
 
@@ -254,4 +254,4 @@ if __name__ == '__main__':
 
 ```
 
-![](image/ruijie-27.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-27.png)

