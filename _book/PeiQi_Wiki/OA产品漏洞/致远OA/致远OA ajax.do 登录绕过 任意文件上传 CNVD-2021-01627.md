@@ -28,7 +28,7 @@
 http://xxx.xxx.xxx.xxx/seeyon/thirdpartyController.do.css/..;/ajax.do
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-5.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-5.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 查看是否出现如上图异常，若存在则可能出现漏洞
 
@@ -85,11 +85,11 @@ webshell地址: http://xxx.xxx.xxx.xxx/seeyon/PeiQi.jspx
 }
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-7.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-7.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 上传后请求webshell地址，访问返回出现如下图则成功写入
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-6.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-6.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 > [!NOTE]
 >
@@ -99,7 +99,7 @@ webshell地址: http://xxx.xxx.xxx.xxx/seeyon/PeiQi.jspx
 
 使用冰蝎连接:**rebeyond**
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-8.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-8.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞利用POC
 
@@ -162,7 +162,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-9.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-9.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 文件编码脚本, 自行进行自定义调试
 
@@ -187,7 +187,7 @@ echo $webshell;
 
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-10.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-10.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 > [!NOTE]
 >

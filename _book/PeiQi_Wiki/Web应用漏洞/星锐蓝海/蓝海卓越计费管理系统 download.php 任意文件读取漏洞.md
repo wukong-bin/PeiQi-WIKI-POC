@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](http://wikioss.peiqi.tech/vuln/lh-1.png)
+![](http://wikioss.peiqi.tech/vuln/lh-1.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 出现漏洞的文件为 download.php ，其中 file参数 存在用户可控
 
@@ -40,8 +40,8 @@ Cookie: PHPSESSID=qkoqsiilc4dol8s4e9d7ta15g7; mylang=zh_s
 Connection: close
 ```
 
-![](http://wikioss.peiqi.tech/vuln/lh-2.png)
+![](http://wikioss.peiqi.tech/vuln/lh-2.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## Goby & POC
 
-![](http://wikioss.peiqi.tech/vuln/lh-3.png)
+![](http://wikioss.peiqi.tech/vuln/lh-3.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

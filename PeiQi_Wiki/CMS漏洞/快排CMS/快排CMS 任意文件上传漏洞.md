@@ -22,7 +22,7 @@ https://gitee.com/qingzhanwang/kpcms
 http://xxx.xxx.xxx.xxx/admin.php/index/login.html
 ```
 
-![](http://wikioss.peiqi.tech/vuln/kp-1.png)
+![](http://wikioss.peiqi.tech/vuln/kp-1.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 源码中没有对上传文件的后缀检测
 
@@ -30,15 +30,15 @@ http://xxx.xxx.xxx.xxx/admin.php/index/login.html
 thinkphp/library/think/File.php
 ```
 
-![](http://wikioss.peiqi.tech/vuln/kp-2.png)
+![](http://wikioss.peiqi.tech/vuln/kp-2.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 任意找一处文件上传点
 
-![](http://wikioss.peiqi.tech/vuln/kp-3.png)
+![](http://wikioss.peiqi.tech/vuln/kp-3.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 上传抓包获取文件地址
 
-![](http://wikioss.peiqi.tech/vuln/kp-4.png)
+![](http://wikioss.peiqi.tech/vuln/kp-4.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ```
 POST /admin.php/index/upload.html?dir=image HTTP/1.1
@@ -100,4 +100,4 @@ session_start();
 
 连接冰蝎木马即可
 
-![](http://wikioss.peiqi.tech/vuln/kp-5.png)
+![](http://wikioss.peiqi.tech/vuln/kp-5.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

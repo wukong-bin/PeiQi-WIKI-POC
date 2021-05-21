@@ -65,7 +65,7 @@ if ($PHOTO_NAME0 != "") {
 }
 ```
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-30.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-30.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 在这里参数 **$USER_ID** 是可控的，并且无过滤危险符号就拼接进去了，那我们传入 **../../../** 我们就可以任意文件上传了
 
@@ -108,7 +108,7 @@ Content-Disposition: form-data; name="submit"
 
 这里我们简单知道了上传方式，那我们就通过 **.user.ini文件** 包含恶意文件
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-38.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-38.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 
 
@@ -116,7 +116,7 @@ Content-Disposition: form-data; name="submit"
 
 访问 http://xxx.xxx.xxx.xxx/general/reportshop/workshop/report/attachment-remark/form.inc.php?peiqi=ipconfig 文件包含命令执行
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-39.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-39.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 > [!NOTE]
 >
@@ -124,9 +124,9 @@ Content-Disposition: form-data; name="submit"
 >
 > 而 v11.8中则有目录名的限制需要目录带有 webroot 和 attachment
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-35.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-35.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-34.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-34.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞利用POC
 
@@ -251,7 +251,7 @@ if __name__ == '__main__':
 
 ```
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-40.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-40.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 > [!NOTE]
 >
@@ -359,4 +359,4 @@ if __name__ == '__main__':
     POC_1(target_url, Cookie)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/tongda-40.png)
+![](http://wikioss.peiqi.tech/vuln/tongda-40.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

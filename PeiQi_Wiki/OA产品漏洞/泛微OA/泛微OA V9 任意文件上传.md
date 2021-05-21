@@ -20,7 +20,7 @@ Jsp流程大概是:判断请求是否是multipart请求,然就没有了,直接�
 
 Filename参数,是前台可控的,并且没有做任何过滤限制
 
-![](http://wikioss.peiqi.tech/vuln/fanwei-14.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-14.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 利用非常简单,只要对着
 
@@ -28,13 +28,13 @@ Filename参数,是前台可控的,并且没有做任何过滤限制
 
 来一个multipartRequest就可以,利用简单,自评高危!!
 
-![](http://wikioss.peiqi.tech/vuln/fanwei-15.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-15.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 然后请求 然后请求路径:
 
 page/exportImport/fileTransfer/1.jsp
 
-![](http://wikioss.peiqi.tech/vuln/fanwei-16.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-16.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 请求包
 

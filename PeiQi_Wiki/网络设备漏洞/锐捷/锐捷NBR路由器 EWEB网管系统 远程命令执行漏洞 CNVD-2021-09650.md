@@ -20,7 +20,7 @@
 
 ## 漏洞复现
 
-![](http://wikioss.peiqi.tech/vuln/ruijie-6.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-6.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 出现漏洞的文件在 **/guest_auth/guestIsUp.php**
 
@@ -52,7 +52,7 @@ mac=1&ip=127.0.0.1|cat /etc/passwd > PeiQi.txt
 
 然后访问页面 **/guest_auth/PeiQi.txt** 就可以看到命令执行的结果
 
-![](http://wikioss.peiqi.tech/vuln/ruijie-5.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-5.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞利用POC
 
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/ruijie-7.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-7.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## Goby & POC
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 >
 > 锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞
 
-![](http://wikioss.peiqi.tech/vuln/ruijie-8.png)
+![](http://wikioss.peiqi.tech/vuln/ruijie-8.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 
 

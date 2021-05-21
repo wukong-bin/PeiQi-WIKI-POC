@@ -26,11 +26,11 @@
 
 请求包为
 
-![](http://wikioss.peiqi.tech/vuln/fanwei-36.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-36.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ​	使用POC文件上传
 
-![](http://wikioss.peiqi.tech/vuln/fanwei-37.png)
+![](http://wikioss.peiqi.tech/vuln/fanwei-37.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞POC
 

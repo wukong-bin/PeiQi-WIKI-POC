@@ -68,21 +68,21 @@ if ($_SESSION['LOGIN_USER_ID'] == '' || $_SESSION['LOGIN_UID'] == '') {
 $sql = 'SELECT SID FROM user_online WHERE UID = \'' . $uid . '\' and CLIENT = \'' . $P_VER . '\'';
 ```
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-25.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-25.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 简单阅读PHP源码可以知道 此SQL语句会查询用户是否在线，如在线返回此用户 Session ID
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-26.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-26.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 将返回的 Set-Cookie 中的Cookie参数值使用于登录Cookie
 
 访问目标后台 http://xxx.xxx.xxx.xxx/general/ 
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-27.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-27.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 当目标离线时则访问漏洞页面则会出现如下图
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-28.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-28.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 > [!NOTE]
 >
@@ -140,7 +140,7 @@ if __name__ == '__main__':
         time.sleep(5)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-29.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-29.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 
 
@@ -272,4 +272,4 @@ if __name__ == '__main__':
         time.sleep(5)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/tongdaoa-41.png)
+![](http://wikioss.peiqi.tech/vuln/tongdaoa-41.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

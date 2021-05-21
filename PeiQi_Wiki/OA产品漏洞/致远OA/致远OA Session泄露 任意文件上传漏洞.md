@@ -37,7 +37,7 @@ method=access&enc=TT5uZnR0YmhmL21qb2wvZXBkL2dwbWVmcy9wcWZvJ04%2BLjgzODQxNDMxMjQz
 >
 > 返回包出现 Sset-Cookie 和 a8genius.do 即为成功获取
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-46.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-46.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 上传压缩包添加 Cookie上传
 
@@ -106,7 +106,7 @@ method=ajaxAction&managerName=portalDesignerManager&managerMethod=uploadPageLayo
 >
 > 其中含有zip压缩包 shell.zip, 如果上传失败更改一下文件名
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-47.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-47.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ```python
 # coding: utf-8
@@ -182,4 +182,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/zhiyuan-48.png)
+![](http://wikioss.peiqi.tech/vuln/zhiyuan-48.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

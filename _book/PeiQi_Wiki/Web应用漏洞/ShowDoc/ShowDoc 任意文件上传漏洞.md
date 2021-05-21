@@ -20,7 +20,7 @@ ShowDoc 存在任意文件上传漏洞，攻击者通过构造特殊的数据包
 
 网站首页如下
 
-![](http://wikioss.peiqi.tech/vuln/sh-1.png)
+![](http://wikioss.peiqi.tech/vuln/sh-1.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 构造如下数据包上传php文件
 
@@ -40,11 +40,11 @@ Content-Type: text/plain
 ----------------------------921378126371623762173617--
 ```
 
-![](http://wikioss.peiqi.tech/vuln/sh-2.png)
+![](http://wikioss.peiqi.tech/vuln/sh-2.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 访问回显的路径
 
-![](http://wikioss.peiqi.tech/vuln/sh-3.png)
+![](http://wikioss.peiqi.tech/vuln/sh-3.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 漏洞POC
 
@@ -96,4 +96,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](http://wikioss.peiqi.tech/vuln/sh-4.png)
+![](http://wikioss.peiqi.tech/vuln/sh-4.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

