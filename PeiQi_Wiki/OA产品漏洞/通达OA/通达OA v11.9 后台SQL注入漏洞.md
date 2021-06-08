@@ -24,7 +24,7 @@ https://cdndown.tongda2000.com/oa/2019/TDOA11.9.exe
 
 漏洞文件位 **webroot/general/appbuilder/modules/portal/controllers/WorkbenchController.php**
 
-```
+```php
 public function actionUpsharestatus()
 	{
 		Yii::$app->response->format = yii\web\Response::FORMAT_JSON;

