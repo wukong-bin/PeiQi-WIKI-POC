@@ -1,8 +1,12 @@
 # Goby & POC 更新时间线记录🐟
 
+###### 2021-6-17 IceWarp WebClient basic 远程命令执行漏洞
+
+###### 2021-6-17 Kyan 网络监控设备 run.php 远程命令执行漏洞
+
 ###### 2021-6-15 TamronOS IPTV系统 ping 任意命令执行漏洞
 
-###### 2021-6-15 H3C HG659 lib 任意文件读取漏洞
+###### 2021-6-15 Huawei HG659 lib 任意文件读取漏洞
 
 ###### 2021-6-15 MagicFlow 防火墙网关 main.xp 任意文件读取漏洞
 
