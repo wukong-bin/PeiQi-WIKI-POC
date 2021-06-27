@@ -40,7 +40,33 @@ Goby & EXP 与 POC 仅仅只供对已授权的目标使用测试，对未授权�
 
 ![image-zs](http://wikioss.peiqi.tech/img/image-zs.png)
 
+## 关于团队
 
+[团队官网](https://www.wgpsec.org/)
+
+![image-20210627222809249](http://wikioss.peiqi.tech/vuln/image-20210627222809249.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)[公开知识库](https://poc.wgpsec.org/)
+
+![image-20210627222848739](http://wikioss.peiqi.tech/vuln/image-20210627222848739.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
+
+[公开poc文库](https://poc.wgpsec.org/)
+
+![image-20210627222909814](http://wikioss.peiqi.tech/vuln/image-20210627222909814.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
+
+[CTF平台](https://ctf.wgpsec.org)
+
+![image-20210627223121079](http://wikioss.peiqi.tech/vuln/image-20210627223121079.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
+
+[公开社区](https://c.wgpsec.org)
+
+![image-20210627223204092](http://wikioss.peiqi.tech/vuln/image-20210627223204092.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
+
+[公开盘](https://pan.wgpsec.org)
+
+![image-20210627223235110](http://wikioss.peiqi.tech/vuln/image-20210627223235110.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
+
+[知识库导航](https://go.wgpsec.org/)
+
+![image-20210627223356775](http://wikioss.peiqi.tech/vuln/image-20210627223356775.png?x-oss-process=image/auto-orient,1/quality,q_90/watermark,image_c2h1aXlpbi9zdWkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQvYnJpZ2h0LC0zOS9jb250cmFzdCwtNjQ,g_se,t_17,x_1,y_10)
 
 ## 关于使用
 

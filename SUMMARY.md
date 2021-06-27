@@ -125,6 +125,7 @@
 	   * [Jellyfin 任意文件读取漏洞 CVE-2021-21402](PeiQi_Wiki/Web应用漏洞/Jellyfin/Jellyfin 任意文件读取漏洞 CVE-2021-21402.md)
 	* [GitLab](PeiQi_Wiki/Web应用漏洞/GitLab/README.md)
 	   * [GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413](PeiQi_Wiki/Web应用漏洞/GitLab/GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413.md)
+	   * [GitLab SSRF漏洞 CVE-2021-22214](PeiQi_Wiki/Web应用漏洞/GitLab/GitLab SSRF漏洞 CVE-2021-22214.md)
 	* [XXL-JOB](PeiQi_Wiki/Web应用漏洞/XXL-JOB/README.md)
 	   * [XXL-JOB 任务调度中心 后台默认弱口令](PeiQi_Wiki/Web应用漏洞/XXL-JOB/XXL-JOB 任务调度中心 后台默认弱口令.md)
 	   * [XXL-JOB 任务调度中心 后台任意命令执行漏洞](PeiQi_Wiki/Web应用漏洞/XXL-JOB/XXL-JOB 任务调度中心 后台任意命令执行漏洞.md)

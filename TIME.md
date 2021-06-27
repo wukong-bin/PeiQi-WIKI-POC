@@ -1,5 +1,7 @@
 # 文库更新时间线记录🦄
 
+###### 2021-6-27 GitLab SSRF漏洞 CVE-2021-22214
+
 ###### 2021-6-27 天融信负载均衡TopApp-LB enable_tool_debug.php 远程命令执行漏洞
 
 ###### 2021-6-27 Active UC index.action 远程命令执行漏洞
