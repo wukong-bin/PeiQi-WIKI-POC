@@ -1,5 +1,23 @@
 # 文库更新时间线记录🦄
 
+###### 2021-7-4 Node-RED ui_base 任意文件读取漏洞
+
+###### 2021-7-2 PbootCMS search SQL注入漏洞
+
+###### 2021-7-2 PbootCMS ext_price SQL注入漏洞
+
+###### 2021-7-2 DocCMS keyword SQL注入漏洞
+
+###### 2021-6-29 OpenSNS shareBox 远程命令执行漏洞
+
+###### 2021-6-28 Nexus Repository Manger extdirect 远程命令执行 CVE-2019-7238
+
+###### 2021-6-28 Nexus Repository Manger group 后台远程命令执行 CVE-2020-10199
+
+###### 2021-6-28 Nexus Repository Manger group 后台远程命令执行 CVE-2020-10204
+
+###### 2021-6-28 Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
+
 ###### 2021-6-27 GitLab SSRF漏洞 CVE-2021-22214
 
 ###### 2021-6-27 天融信负载均衡TopApp-LB enable_tool_debug.php 远程命令执行漏洞
